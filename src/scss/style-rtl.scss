@@ -2,4 +2,11 @@ $left: right;
 $right: left;
 $direction: rtl;
 
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right !important;
+    padding-right: unset;
+    padding-left: 0.5rem;
+}
+
 @import './main';

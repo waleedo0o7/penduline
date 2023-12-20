@@ -2,7 +2,7 @@
 
 <main class="main">
   <!-- DAY OFFER START -->
-  <section class="day-offers">
+  <section class="day-offers bg-primary">
     <div class="swiper day-offers-swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -92,7 +92,7 @@
   <!-- DAY OFFER END -->
 
   <!-- RECENT ARRIVE SECTION START -->
-  <section class="recent-arrive">
+  <section class="recent-arrive bg-primary">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-xl-4 mb-4">
@@ -141,7 +141,7 @@
   <!-- RECENT ARRIVE SECTION END -->
 
   <!-- PRODUCTS SECTION START -->
-  <section class="products">
+  <section class="products bg-primary pb-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-4 col-xxl-2">
@@ -489,7 +489,6 @@
   </div>
 </section>
 <!-- BEST OFFERS SECTION END -->
-
 
 <!-- OUR RECOMMENDATION SECTION START -->
 <section class="recommendations">

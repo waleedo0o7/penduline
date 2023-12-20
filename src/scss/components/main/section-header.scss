@@ -9,3 +9,25 @@
     color: $text-color;
   }
 }
+
+
+.co-page-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 ;
+  &__title {
+    font-size: rem(30);
+    font-weight: bold;
+    color: $text-color;
+  }
+}
+
+
+.co-page-banner{
+  padding: 20px 0 ;
+  &__image {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}
