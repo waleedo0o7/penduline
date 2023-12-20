@@ -1,27 +1,75 @@
 .header {
   color: #fff;
 
-  &__logo {
-    @include media-breakpoint-down(md) {
-      width: 100%;
-    }
-  }
-
   &__top {
     padding: 40px 0;
     background-color: $primary-color;
+
     &__container {
       @include flex(center);
       column-gap: 50px;
 
+      .close-mobile-menu {
+        display: none;
+      }
+
       @include media-breakpoint-down(xxl) {
         flex-wrap: wrap;
+        .close-mobile-menu {
+          display: flex !important;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          font-size: 22px;
+          position: absolute;
+          top: 20px;
+          cursor: pointer;
+
+          .fa {
+            font-size: 28px;
+          }
+
+        }
       }
 
       @include media-breakpoint-down(md) {
         column-gap: 10px;
+        padding-top: 40px;
         justify-content: space-between;
+        align-content: flex-start;
       }
+    }
+
+    &.show {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      width: 100vw;
+      height: 100vh;
+      padding: 40px 20px;
+
+      .co-icon-container,
+      .co-search,
+      .co-language-switcher {
+        width: 50% !important;
+        margin-bottom: 40px !important; 
+      }
+    }
+
+    @include media-breakpoint-down(xxl) {
+      display: none;
+    }
+  }
+
+  &__logo {
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+
+    @include media-breakpoint-down(xxl) {
+      display: none;
     }
   }
 
@@ -34,7 +82,7 @@
 
       @include media-breakpoint-down(xl) {
         flex-direction: column;
-        padding: 20px 0;
+        padding: 0;
       }
     }
 
@@ -52,6 +100,10 @@
       &:focus-visible {
         border-color: #878787;
         outline-color: #878787;
+      }
+
+      @include media-breakpoint-down(xxl) {
+        display: none;
       }
     }
   }
@@ -74,15 +126,36 @@
       &--active {
         background-color: #e0e6ef;
       }
+
+      @include media-breakpoint-down(xxl) {
+        min-width: 160px;
+        padding: 20px 10px;
+      }
     }
 
     @include media-breakpoint-down(xl) {
-      flex-direction: column;
       width: 100%;
+      overflow: auto;
 
       &__item {
         width: 100%;
         text-align: center;
+      }
+    }
+  }
+
+  &__top__mobile {
+    background-color: $primary-color;
+    display: none;
+    @include media-breakpoint-down(xxl) {
+      @include flex(center, space-between);
+      padding: 10px;
+    }
+
+    .open-mobile-menu {
+      cursor: pointer;
+      i {
+        font-size: 24px;
       }
     }
   }

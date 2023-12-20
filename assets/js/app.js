@@ -194,6 +194,9 @@ jQuery(document).ready(function ($) {
   window.onscroll = function () {
     scrollFunction(topButton, headerNav);
   };
+
+  showMobileMenu();
+  closeMobileMenu();
 });
 
 function scrollFunction(topButton, headerNav) {
@@ -215,31 +218,15 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-function mobileNavMenuRender() {
-  const navExpand = [].slice.call(document.querySelectorAll('.nav-expand'));
-  const backLink = `<li class="nav-item">
-	<a class="nav-link nav-back-link" href="javascript:;">
-		Back
-	</a>
-</li>`;
-
-  navExpand.forEach((item) => {
-    item.querySelector('.nav-expand-content').insertAdjacentHTML('afterbegin', backLink);
-    item.querySelector('.nav-link').addEventListener('click', () => item.classList.add('active'));
-    item.querySelector('.nav-back-link').addEventListener('click', () => item.classList.remove('active'));
+function showMobileMenu() {
+  $('.open-mobile-menu').on("click", function () {
+    $(".header__top").addClass('show')
   });
+}
 
-  // ---------------------------------------
-  // not-so-important stuff starts here
 
-  const openMenuBtn = document.getElementById('openMenu');
-  const closeMenuBtn = document.getElementById('closeMenu');
-
-  openMenuBtn.addEventListener('click', function () {
-    $('.header__mobile').fadeIn('slow');
-  });
-
-  closeMenuBtn.addEventListener('click', function () {
-    $('.header__mobile').fadeOut('slow');
+function closeMobileMenu() {
+  $('.close-mobile-menu').on("click", function () {
+    $(".header__top").removeClass('show')
   });
 }
