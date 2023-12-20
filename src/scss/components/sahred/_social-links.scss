@@ -1,0 +1,36 @@
+.co-social-links {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: rem(20);
+  }
+
+  &__item {
+    transition: $transition-type;
+
+    &:not(:last-child) {
+      .icon {
+        margin-#{$right}: 15px;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  &--primary {
+    .icon {
+      font-size: rem(14);
+      background-color: $primary-color;
+    }
+  }
+}

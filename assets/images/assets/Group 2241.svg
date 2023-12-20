@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277" height="287" viewBox="0 0 277 287">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c10e79"/>
+      <stop offset="1" stop-color="#fe599a"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="138.5" cy="138.5" r="138.5" transform="translate(-0.178 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <filter id="Ellipse_4" x="-75.5" y="-95.5" width="428" height="428" filterUnits="userSpaceOnUse">
+      <feOffset dy="-30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2241" data-name="Group 2241" transform="translate(-354.325 -1269.224)">
+    <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(354.503 1279.224)" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, -0.18, -10)" filter="url(#Ellipse_4)">
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="138.5" cy="138.5" r="138.5" transform="translate(0 10)" fill="#ac0972" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="138.5" cy="138.5" r="138.5" transform="translate(354.325 1269.224)" fill="#fe599a" opacity="0.25"/>
+  </g>
+</svg>

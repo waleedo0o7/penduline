@@ -1,0 +1,25 @@
+.co-icon-container {
+  @include flex(center);
+  column-gap: 8px;
+
+  &__label {
+    font-size: rem(13);
+    display: block;
+    font-weight: 300;
+  }
+
+  &__title {
+    font-size: rem(16);
+    line-height: 1.7;
+    display: block;
+  }
+
+  .icon {
+    font-size: rem(20);
+  }
+
+  @include media-breakpoint-down(md) {
+    flex-basis: 45%;
+    margin-bottom: 15px;
+  }
+}

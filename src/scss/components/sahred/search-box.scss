@@ -1,0 +1,70 @@
+%dropdown-arrow {
+  margin-inline-end: 20px;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-image: url(../icons/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 50%;
+  background-size: 15px;
+}
+
+.co-search {
+  width: 500px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding-inline-end: 10px;
+  @include flex(center);
+  color: $text-color;
+  margin-block: auto;
+  flex: 1;
+
+  input {
+    display: block;
+    border: 0;
+    outline: none;
+    flex: 1;
+    font-size: rem(16);
+
+    &::placeholder {
+      color: #878787;
+    }
+  }
+
+  select {
+    border: 0;
+    outline: none;
+    background-color: #e0e6ef;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    @extend %dropdown-arrow;
+  }
+
+  &__button {
+    width: 41px;
+    height: 41px;
+    background-color: #ffc220;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text-color;
+
+    .icon {
+      font-size: rem(18);
+      font-weight: bold;
+    }
+  }
+
+  @include media-breakpoint-down(xl) {
+    order: 5;
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+}

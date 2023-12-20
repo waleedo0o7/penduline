@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+// ABSTRACT
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins', 'abstracts/custom';
+
+// BASE
+@import 'base/rest', 'base/base', 'base/fonts', 'base/typography', 'base/rest', 'base/icon/style.scss';
+
+@import 'abstracts/helpers';
+
+// COMPONENT SHARED
+@import 'components/sahred/social-links', 'components/sahred/scroll', 'components/sahred/dropdown',
+  'components/sahred/spinner', 'components/sahred/buttons', 'components/sahred/scroll-top', 'components/sahred/slider',
+  'components/sahred/breadcrumb', 'components/sahred/pagination', 'components/sahred/form',
+  'components/sahred/search-box', 'components/sahred/table', 'components/sahred/mobile-menu',
+  'components/sahred/langugae-switcher';
+
+// COMPONENTS MAIN
+@import 'components/main/icon-container', 'components/main/day-offer', 'components/main/swiper-navigation',
+  'components/main/recent-arrive', 'components/main/product', 'components/main/section-header',
+  'components/main/recommendation-product', 'components/main/saving-product', 'components/main/blog-card',
+  'components/main/partner', 'components/main/contacts', 'components/main/payment-methods',
+  'components/main/email-subscribe';
+
+// LAYOUT
+@import 'layout/header', 'layout/footer';
+
+// PAGES
+@import 'pages/home';

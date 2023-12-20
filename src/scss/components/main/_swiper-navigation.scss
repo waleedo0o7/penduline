@@ -1,0 +1,31 @@
+.co-swiper-navigation {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+  margin-top: 20px;
+
+  &__button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff !important;
+    cursor: pointer;
+
+    .icon {
+      font-size: rem(20);
+    }
+  }
+
+  &--gray {
+    color: #878787;
+
+    .co-swiper-navigation__button {
+      border-color: #878787 !important;
+    }
+  }
+}

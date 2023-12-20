@@ -1,0 +1,24 @@
+.co-subscribe {
+  margin-bottom: 50px;
+
+  display: flex;
+  align-items: center;
+
+  &__input {
+    flex: 1;
+    height: 43px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #e0e6ef;
+    padding: 0 20px;
+    outline: none;
+    &:active,
+    &:focus-visible {
+      border: 1px solid #e0e6ef;
+    }
+  }
+
+  &__button {
+    transform: translateX(15px);
+  }
+}

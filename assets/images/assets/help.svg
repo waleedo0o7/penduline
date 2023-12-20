@@ -1,0 +1,5 @@
+<svg id="help" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <path id="Path_69" data-name="Path 69" d="M24,3A21,21,0,1,0,45,24,21,21,0,0,0,24,3Zm0,39A18,18,0,1,1,42,24,18,18,0,0,1,24,42Z" transform="translate(-3 -3)" fill="#fff"/>
+  <circle id="Ellipse_11" data-name="Ellipse 11" cx="2.25" cy="2.25" r="2.25" transform="translate(18.75 30)" fill="#fff"/>
+  <path id="Path_70" data-name="Path 70" d="M25.5,12H23.25a6.735,6.735,0,0,0-6.75,6.75v.75h3v-.75A3.75,3.75,0,0,1,23.25,15H25.5a3.75,3.75,0,0,1,0,7.5h-3v6.75h3V25.5a6.75,6.75,0,1,0,0-13.5Z" transform="translate(-3 -3)" fill="#fff"/>
+</svg>

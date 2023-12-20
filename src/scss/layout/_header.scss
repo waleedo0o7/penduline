@@ -1,0 +1,89 @@
+.header {
+  color: #fff;
+
+  &__logo {
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+  }
+
+  &__top {
+    padding: 40px 0;
+    background-color: $primary-color;
+    &__container {
+      @include flex(center);
+      column-gap: 50px;
+
+      @include media-breakpoint-down(xxl) {
+        flex-wrap: wrap;
+      }
+
+      @include media-breakpoint-down(md) {
+        column-gap: 10px;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__nav-list {
+    background-color: #f9fafc;
+
+    &__container {
+      @include flex(center);
+      column-gap: 50px;
+
+      @include media-breakpoint-down(xl) {
+        flex-direction: column;
+        padding: 20px 0;
+      }
+    }
+
+    &__track-order {
+      height: 40px;
+      border-color: #878787;
+      outline-color: #878787;
+      border-radius: 30px;
+      padding: 0 30px;
+      @extend %dropdown-arrow;
+      margin-inline-end: 0;
+
+      &:active,
+      &:focus,
+      &:focus-visible {
+        border-color: #878787;
+        outline-color: #878787;
+      }
+    }
+  }
+
+  &__nav {
+    color: $text-color;
+    @include flex(center);
+    margin-inline-end: auto;
+
+    &__item {
+      padding: 25px;
+      height: 100%;
+
+      &__link {
+        font-size: rem(16);
+        font-weight: bold;
+      }
+
+      &:hover,
+      &--active {
+        background-color: #e0e6ef;
+      }
+    }
+
+    @include media-breakpoint-down(xl) {
+      flex-direction: column;
+      width: 100%;
+
+      &__item {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

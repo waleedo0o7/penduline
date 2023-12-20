@@ -1,0 +1,13 @@
+.co-language-switcher {
+  &__flag {
+    width: 33px;
+  }
+
+  &__link {
+    @include flex(center);
+
+    &__label {
+      margin: 0 5px;
+    }
+  }
+}

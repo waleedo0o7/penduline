@@ -1,0 +1,23 @@
+{
+  "name": "PENDULINE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss/style-ltr.scss:assets/css/style-ltr.min.css src/scss/style-rtl.scss:assets/css/style-rtl.min.css --style compressed",
+    "format": "npx prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}

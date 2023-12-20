@@ -1,0 +1,57 @@
+.main {
+  background-color: $primary-color;
+  padding-bottom: 50px;
+}
+
+.best-seller {
+  margin-bottom: 50px;
+}
+
+.day-offers {
+  padding: 120px 0;
+  margin-bottom: 50px;
+
+  @include media-breakpoint-down(xl) {
+    padding: 50px 0;
+    margin-bottom: 0;
+  }
+}
+
+.recommendations {
+  margin-bottom: 50px;
+}
+
+.recent-arrive {
+  padding-bottom: 30px;
+}
+
+.best-offers {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.saving-area {
+  margin-bottom: 50px;
+}
+
+.blog {
+  margin-bottom: 50px;
+}
+
+.partners {
+  margin-bottom: 50px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+}
+
+.contacts {
+  padding: 50px 0;
+  background-color: $primary-color;
+  margin-bottom: 50px;
+}
