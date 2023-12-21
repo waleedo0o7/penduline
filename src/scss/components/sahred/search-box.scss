@@ -19,6 +19,8 @@
   @include flex(center);
   color: $text-color;
   margin-block: auto;
+  border-radius: 500px;
+  overflow: hidden;
   flex: 1;
 
   input {
@@ -38,8 +40,6 @@
     outline: none;
     background-color: #e0e6ef;
     height: 100%;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
     width: 100px;
     text-align: center;
     font-weight: bold;
