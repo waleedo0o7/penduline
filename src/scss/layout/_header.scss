@@ -2,7 +2,7 @@
   color: #fff;
 
   &__top {
-    padding: 40px 0;
+    padding: 15px 0;
     background-color: $primary-color;
 
     &__container {
@@ -87,13 +87,14 @@
     }
 
     &__track-order {
-      height: 40px;
+      height: 35px;
       border-color: #878787;
       outline-color: #878787;
       border-radius: 30px;
-      padding: 0 30px;
-      @extend %dropdown-arrow;
-      margin-inline-end: 0;
+      padding: 0 20px;
+      @extend %dropdown-arrow; 
+      margin: 0 !important;
+      margin-inline-start: auto !important;
 
       &:active,
       &:focus,
@@ -114,11 +115,11 @@
     margin-inline-end: auto;
 
     &__item {
-      padding: 25px;
+      padding: 15px 20px;
       height: 100%;
 
       &__link {
-        font-size: rem(16);
+        font-size: rem(13);
         font-weight: bold;
       }
 
@@ -156,6 +157,7 @@
       cursor: pointer;
       i {
         font-size: 24px;
+        color: #FFF;
       }
     }
   }

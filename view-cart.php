@@ -55,7 +55,7 @@
 
                             <div class="co-cart-item bg-white card p-4 mb-3">
                                 <div class="co-cart-item-header d-flex justify-content-between align-items-center">
-                                    <p> بندولين كريم للشعر </p>
+                                    <a href="view-products-details.php" class="mb-3"> بندولين كريم للشعر </a>
                                     <a href="#" class="co-action">
                                         <i class="fa-solid fa-trash color-danger"></i>
                                     </a>
@@ -116,7 +116,7 @@
 
                             <div class="co-cart-item bg-white card p-4 mb-3">
                                 <div class="co-cart-item-header d-flex justify-content-between align-items-center">
-                                    <p> بندولين كريم للشعر </p>
+                                    <a href="view-products-details.php" class="mb-3"> بندولين كريم للشعر </a>
                                     <a href="#" class="co-action">
                                         <i class="fa-solid fa-trash color-danger"></i>
                                     </a>

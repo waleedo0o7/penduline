@@ -5,17 +5,17 @@
   appearance: none;
   background-image: url(../icons/down-arrow.svg);
   background-repeat: no-repeat;
-  background-position-x: 10px;
+  background-position-x: calc( 100% - 10px );
   background-position-y: 50%;
-  background-size: 15px;
+  background-size: 11px;
 }
 
 .co-search {
   width: 500px;
-  height: 55px;
+  height: 40px;
   border-radius: 30px;
   background-color: #fff;
-  padding-inline-end: 10px;
+  padding-inline-end: 6px;
   @include flex(center);
   color: $text-color;
   margin-block: auto;
@@ -28,10 +28,11 @@
     border: 0;
     outline: none;
     flex: 1;
-    font-size: rem(16);
+    font-size: rem(14);
 
     &::placeholder {
       color: #878787;
+      font-size: rem(10);
     }
   }
 
@@ -40,15 +41,15 @@
     outline: none;
     background-color: #e0e6ef;
     height: 100%;
-    width: 100px;
+    width: 80px;
     text-align: center;
     font-weight: bold;
     @extend %dropdown-arrow;
   }
 
   &__button {
-    width: 41px;
-    height: 41px;
+    width: 33px;
+    height: 33px;
     background-color: #ffc220;
     border-radius: 50%;
     display: flex;
@@ -57,7 +58,7 @@
     color: $text-color;
 
     .icon {
-      font-size: rem(18);
+      font-size: rem(14);
       font-weight: bold;
     }
   }

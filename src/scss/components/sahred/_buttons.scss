@@ -1,18 +1,24 @@
 .btn {
-  // border: 1px solid $secondary-color;
-
-  // &:hover {
-  //   color: $color-white;
-  // }
-
   &--primary {
     background: $primary-color;
-    color: #FFF;
+    color: #fff;
     border-color: $primary-color;
 
     &:hover {
       background: $color-white;
       color: $primary-color;
+      border-color: $primary-color;
+    }
+  }
+
+  &--primary--inverted {
+    background: #FFF;
+    color: $primary-color;
+    border-color: #fff;
+
+    &:hover {
+      background: $primary-color;
+      color: #fff;
       border-color: $primary-color;
     }
   }
@@ -27,6 +33,20 @@
       color: $text-color;
     }
   }
+
+  
+  &--secondary--inverted {
+    background: $color-white;
+    color: $text-color;
+    border-color: $color-white;
+
+    &:hover {
+      background: $text-color;
+      color: $color-white;
+      border-color: $text-color;
+    }
+  }
+
 
   &--outline {
     background-color: transparent;

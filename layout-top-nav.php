@@ -104,7 +104,7 @@
     <div class="container header__nav-list__container">
       <ul class="header__nav reset-list">
         <li class="header__nav__item header__nav__item--active">
-          <a href="" class="header__nav__item__link">عرض الكل</a>
+          <a href="" class="header__nav__item__link">    <i class="fa fa-ellipsis show-all-icon" aria-hidden="true"></i>   عرض الكل</a>
         </li>
         <li class="header__nav__item">
           <a href="" class="header__nav__item__link"> عالم بندولين</a>

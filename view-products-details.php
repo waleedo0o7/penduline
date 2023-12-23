@@ -312,23 +312,23 @@
             <div class="co-product-details">
 
                 <div class="co-product__title">
-                    <h1> كريم مرطب بندولين للوجه والجسم واليدين </h1>
+                    <h1> كريم مرطب بندولين للوجه والجسم واليدين واليدين واليدين واليدين  </h1>
                 </div> <!-- co-product__title -->
 
                 <div class="co-product-size-category d-flex">
 
-                    <p class="d-inline-flex w-50"> <span class="me-2 lead"> الحجم </span> <span class="bold lead"> ML 300 </span></p>
+                    <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> الحجم </small> <span class="bold lead"> ML 300 </span></p>
 
-                    <p class="d-inline-flex w-50"> <span class="me-2 lead"> التصنيف </span> <span class="bold lead"> عناية البيبي </span></p>
+                    <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> التصنيف </small> <span class="bold lead"> عناية البيبي </span></p>
 
                 </div><!-- co-product-size-category -->
 
                 <div class="co-product-rate ">
                     <div class="rate me-3 d-inline-flex">
                         <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
-                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
                         <span class="fa fa-star "></span>
                     </div>
 

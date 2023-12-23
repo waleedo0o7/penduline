@@ -7,7 +7,7 @@
 }
 
 .day-offers {
-  padding: 120px 0;
+  padding: 40px 0;
 
   @include media-breakpoint-down(xl) {
     padding: 50px 0;
@@ -24,8 +24,25 @@
 }
 
 .best-offers {
-  margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.top-overlap {
+  margin-top: -210px;
+  z-index: 99999;
+  position: relative;
+}
+
+.bottom-overlap {
+  padding-bottom: 210px;
+}
+
+.intro-bg {
+  background-image: url(../../../penduline/assets/images/intro-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50% 100px;
+  background-attachment: fixed;
 }
 
 .saving-area {
