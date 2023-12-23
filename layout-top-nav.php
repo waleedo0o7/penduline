@@ -20,7 +20,7 @@
         <i class="fa fa-times"></i>
       </a>
 
-      <a href="#" class="header__logo">
+      <a href="view-home.php?dir=rtl" class="header__logo">
         <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
       </a>
 
@@ -29,7 +29,7 @@
       <div class="co-language-switcher">
         <a href="#" class="co-language-switcher__link" type="button" id="changeLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img class="co-language-switcher__flag" src="assets/images/Flag/egypt.png" alt="EGYPT" />
-          <span class="co-language-switcher__link__label">مصر</span>
+          <span class="co-language-switcher__link__label color-white">مصر</span>
           <i class="icon icon-arrow_dropdown"></i>
         </a>
         <div class="dropdown-menu" aria-labelledby="changeLang" x-placement="bottom-start" style="
@@ -72,13 +72,13 @@
           <span class="co-icon-container__title">قائمة مفضلاتك</span>
         </div>
       </div>
-      <div class="co-icon-container">
+      <a href="view-cart.php?dir=rtl" class="color-white co-icon-container">
         <i class="icon icon-cart"></i>
         <div>
           <span class="co-icon-container__label">عربة</span>
           <span class="co-icon-container__title">عربة التسوق</span>
         </div>
-      </div>
+      </a>
       <div class="co-icon-container">
         <i class="icon icon-user-3"></i>
         <div>
@@ -102,7 +102,7 @@
 
   <div class="header__nav-list">
     <div class="container header__nav-list__container">
-      <ul class="header__nav">
+      <ul class="header__nav reset-list">
         <li class="header__nav__item header__nav__item--active">
           <a href="" class="header__nav__item__link">عرض الكل</a>
         </li>
@@ -111,9 +111,6 @@
         </li>
         <li class="header__nav__item">
           <a href="" class="header__nav__item__link"> البيبي و الام</a>
-        </li>
-        <li class="header__nav__item">
-          <a href="" class="header__nav__item__link"> الشعر الكيرلي</a>
         </li>
         <li class="header__nav__item">
           <a href="" class="header__nav__item__link"> عرض اليوم</a>

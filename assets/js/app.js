@@ -197,6 +197,7 @@ jQuery(document).ready(function ($) {
 
   showMobileMenu();
   closeMobileMenu();
+  productSliderSwiper();
 });
 
 function scrollFunction(topButton, headerNav) {
@@ -229,4 +230,47 @@ function closeMobileMenu() {
   $('.close-mobile-menu').on("click", function () {
     $(".header__top").removeClass('show')
   });
+}
+
+
+
+
+
+let productSliderSwiper = () => {
+
+  let sliderDirection;
+  let slidesNumView;
+
+  let swiperProductsSlider;
+  let swiperProductsThumbsSlider;
+
+  if ($(window).width() <= 1024) {
+    sliderDirection = 'horizontal'
+    slidesNumView = 3
+  } else {
+    sliderDirection = 'vertical'
+    slidesNumView = 5
+  }
+
+  swiperProductsThumbsSlider = new Swiper(".swiper-products-thumbs-slider", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: slidesNumView,
+    freeMode: true,
+    watchSlidesProgress: true,
+    direction: sliderDirection
+
+  });
+
+  swiperProductsSlider = new Swiper(".swiper-products-slider", {
+    loop: true,
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+    thumbs: {
+      swiper: swiperProductsThumbsSlider,
+    },
+  });
+
 }

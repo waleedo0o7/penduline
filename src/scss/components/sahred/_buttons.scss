@@ -1,18 +1,18 @@
 .btn {
-  border: 1px solid $secondary-color;
+  // border: 1px solid $secondary-color;
 
-  &:hover {
-    color: $color-white;
-  }
+  // &:hover {
+  //   color: $color-white;
+  // }
 
   &--primary {
-    background: $color-white;
-    color: #0c574f;
-    border-color: $color-white;
+    background: $primary-color;
+    color: #FFF;
+    border-color: $primary-color;
 
     &:hover {
-      background-color: $primary-color;
-      color: $color-white;
+      background: $color-white;
+      color: $primary-color;
       border-color: $primary-color;
     }
   }

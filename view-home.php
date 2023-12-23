@@ -144,138 +144,32 @@
   <section class="products bg-primary pb-5">
     <div class="container">
       <div class="row">
+
         <div class="col-md-6 col-lg-4 col-xxl-2">
-          <div class="co-product">
-            <div class="co-product__info">
-              <h3 class="co-product__flag">عناية البيبي</h3>
-              <img class="co-product__image" src="assets/images/Product/product.jpg" alt="Product">
-              <h2 class="co-product__title">بلسم بندولين بالمورينجا</h2>
-              <div class="co-product__review">
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-              </div>
-            </div>
-            <div class="co-product__footer">
-              <h2 class="co-product__price__after">120 ج.م</h2>
-              <h2 class="co-product__price__before">160 ج.م</h2>
-              <i class="icon icon-cart"></i>
-              <i class="icon icon-love"></i>
-            </div>
-          </div>
+          <?php @include "./src/html/product-style-1.html"; ?>
         </div>
+
         <div class="col-md-6 col-lg-4 col-xxl-2">
-          <div class="co-product">
-            <div class="co-product__info">
-              <h3 class="co-product__flag">عناية البيبي</h3>
-              <img class="co-product__image" src="assets/images/Product/product-1.jpg" alt="Product">
-              <h2 class="co-product__title">بلسم بندولين بالمورينجا</h2>
-              <div class="co-product__review">
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-              </div>
-            </div>
-            <div class="co-product__footer">
-              <h2 class="co-product__price__after">120 ج.م</h2>
-              <h2 class="co-product__price__before">160 ج.م</h2>
-              <i class="icon icon-cart"></i>
-              <i class="icon icon-love"></i>
-            </div>
-          </div>
+          <?php @include "./src/html/product-style-1.html"; ?>
         </div>
+
         <div class="col-md-6 col-lg-4 col-xxl-2">
-          <div class="co-product">
-            <div class="co-product__info">
-              <h3 class="co-product__flag">عناية البيبي</h3>
-              <img class="co-product__image" src="assets/images/Product/product.jpg" alt="Product">
-              <h2 class="co-product__title">بلسم بندولين بالمورينجا</h2>
-              <div class="co-product__review">
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-              </div>
-            </div>
-            <div class="co-product__footer">
-              <h2 class="co-product__price__after">120 ج.م</h2>
-              <h2 class="co-product__price__before">160 ج.م</h2>
-              <i class="icon icon-cart"></i>
-              <i class="icon icon-love"></i>
-            </div>
-          </div>
+          <?php @include "./src/html/product-style-1.html"; ?>
         </div>
+
         <div class="col-md-6 col-lg-4 col-xxl-2">
-          <div class="co-product">
-            <div class="co-product__info">
-              <h3 class="co-product__flag">عناية البيبي</h3>
-              <img class="co-product__image" src="assets/images/Product/product-1.jpg" alt="Product">
-              <h2 class="co-product__title">بلسم بندولين بالمورينجا</h2>
-              <div class="co-product__review">
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-              </div>
-            </div>
-            <div class="co-product__footer">
-              <h2 class="co-product__price__after">120 ج.م</h2>
-              <h2 class="co-product__price__before">160 ج.م</h2>
-              <i class="icon icon-cart"></i>
-              <i class="icon icon-love"></i>
-            </div>
-          </div>
+          <?php @include "./src/html/product-style-1.html"; ?>
         </div>
+
         <div class="col-md-6 col-lg-4 col-xxl-2">
-          <div class="co-product">
-            <div class="co-product__info">
-              <h3 class="co-product__flag">عناية البيبي</h3>
-              <img class="co-product__image" src="assets/images/Product/product.jpg" alt="Product">
-              <h2 class="co-product__title">بلسم بندولين بالمورينجا</h2>
-              <div class="co-product__review">
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-              </div>
-            </div>
-            <div class="co-product__footer">
-              <h2 class="co-product__price__after">120 ج.م</h2>
-              <h2 class="co-product__price__before">160 ج.م</h2>
-              <i class="icon icon-cart"></i>
-              <i class="icon icon-love"></i>
-            </div>
-          </div>
+          <?php @include "./src/html/product-style-1.html"; ?>
         </div>
+
         <div class="col-md-6 col-lg-4 col-xxl-2">
-          <div class="co-product">
-            <div class="co-product__info">
-              <h3 class="co-product__flag">عناية البيبي</h3>
-              <img class="co-product__image" src="assets/images/Product/product-1.jpg" alt="Product">
-              <h2 class="co-product__title">بلسم بندولين بالمورينجا</h2>
-              <div class="co-product__review">
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-                <i class="icon icon-Star_2"></i>
-              </div>
-            </div>
-            <div class="co-product__footer">
-              <h2 class="co-product__price__after">120 ج.م</h2>
-              <h2 class="co-product__price__before">160 ج.م</h2>
-              <i class="icon icon-cart"></i>
-              <i class="icon icon-love"></i>
-            </div>
-          </div>
+          <?php @include "./src/html/product-style-1.html"; ?>
         </div>
+
+
       </div>
     </div>
   </section>
@@ -287,7 +181,7 @@
   <div class="container">
     <div class="co-section-header best-offers__header">
       <h2 class="co-section-header__title">أفضل العروض</h2>
-      <button class="btn btn--secondary">استكشف المزيد</button>
+      <a href="view-products-list.php" class="btn btn--secondary">استكشف المزيد</a>
     </div>
   </div>
 
@@ -1391,50 +1285,5 @@
   </div>
 </section>
 <!-- PARTNERS SECTION END -->
-
-<!-- CONTACTS SECTION START -->
-<section class="contacts">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="co-contact">
-          <i class="icon icon-email co-contact__icon"></i>
-          <div>
-            <h2 class="co-contact__label">مركز المساعدة</h2>
-            <h3 class="co-contact__value">help@penduline .com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="co-contact">
-          <i class="icon icon-email co-contact__icon"></i>
-          <div>
-            <h2 class="co-contact__label">مركز المساعدة</h2>
-            <h3 class="co-contact__value">help@penduline .com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="co-contact">
-          <i class="icon icon-email co-contact__icon"></i>
-          <div>
-            <h2 class="co-contact__label">مركز المساعدة</h2>
-            <h3 class="co-contact__value">help@penduline .com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="co-contact">
-          <i class="icon icon-email co-contact__icon"></i>
-          <div>
-            <h2 class="co-contact__label">مركز المساعدة</h2>
-            <h3 class="co-contact__value">help@penduline .com</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- CONTACTS SECTION END -->
 
 <?php include 'layout-footer.php'; ?>

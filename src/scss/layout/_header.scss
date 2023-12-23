@@ -13,7 +13,7 @@
         display: none;
       }
 
-      @include media-breakpoint-down(xxl) {
+      @include media-breakpoint-down(lg) {
         flex-wrap: wrap;
         .close-mobile-menu {
           display: flex !important;
@@ -58,7 +58,7 @@
       }
     }
 
-    @include media-breakpoint-down(xxl) {
+    @include media-breakpoint-down(lg) {
       display: none;
     }
   }
@@ -68,7 +68,7 @@
       width: 100%;
     }
 
-    @include media-breakpoint-down(xxl) {
+    @include media-breakpoint-down(lg) {
       display: none;
     }
   }
@@ -102,7 +102,7 @@
         outline-color: #878787;
       }
 
-      @include media-breakpoint-down(xxl) {
+      @include media-breakpoint-down(lg) {
         display: none;
       }
     }
@@ -127,7 +127,7 @@
         background-color: #e0e6ef;
       }
 
-      @include media-breakpoint-down(xxl) {
+      @include media-breakpoint-down(lg) {
         min-width: 160px;
         padding: 20px 10px;
       }
@@ -147,7 +147,7 @@
   &__top__mobile {
     background-color: $primary-color;
     display: none;
-    @include media-breakpoint-down(xxl) {
+    @include media-breakpoint-down(lg) {
       @include flex(center, space-between);
       padding: 10px;
     }
