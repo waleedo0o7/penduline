@@ -2,17 +2,30 @@ $left: right;
 $right: left;
 $direction: rtl;
 
-@import './main';
+@import "./main";
 
-
-
-
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
     float: right !important;
     padding-right: unset;
     padding-left: 0.5rem;
 }
 
- select{
+select {
     background-position-x: 10px !important;
- }
+}
+
+
+html[dir="rtl"] {
+    .fa-chevron-right,
+    .fa-chevron-left {
+        transform: rotate(180deg);
+    }
+
+    .co-range-slider {
+        direction: ltr;
+    }
+
+    .co-search select.select {
+        border-radius: 0 100px  100px  0 !important;
+    }
+}

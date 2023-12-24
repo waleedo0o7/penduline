@@ -56,7 +56,7 @@
         <span>English</span>
       </div>
       <div class="co-search">
-        <select>
+        <select class="select">
           <option value="0">الكل</option>
           <option value="1">1الكل</option>
         </select>
@@ -128,7 +128,7 @@
           <a href="" class="header__nav__item__link">المدونة</a>
         </li>
       </ul>
-      <select class="header__nav-list__track-order">
+      <select class="select header__nav-list__track-order">
         <option value="0">تتبع الطلب</option>
         <option value="0">تتبع الطلب اولا</option>
       </select>

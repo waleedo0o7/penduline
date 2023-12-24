@@ -50,7 +50,7 @@
                                 </div>
 
                                 <div class="form-group custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck3" name="example1">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3" name="example1" checked>
                                     <label class="custom-control-label" for="customCheck3"> جونسون </label>
                                 </div>
 
@@ -118,8 +118,8 @@
 
 
                                 <div class="form-group custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck2" name="example1">
-                                    <label class="custom-control-label" for="customCheck2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck44" name="example1" checked>
+                                    <label class="custom-control-label" for="customCheck44">
                                         <div class="rate">
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
@@ -166,12 +166,40 @@
                                 <p class="title lead bold"> الشحن </p>
 
                                 <div class="form-group custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1133" name="example1" checked>
+                                    <label class="custom-control-label" for="customCheck1133"> اكسبريس سريع </label>
+                                </div>
+
+                                <div class="form-group custom-control custom-checkbox mb-3">
                                     <input type="checkbox" class="custom-control-input" id="customCheck11" name="example1">
-                                    <label class="custom-control-label" for="customCheck11"> اكسبريس سريع </label>
+                                    <label class="custom-control-label" for="customCheck11"> من الفرع </label>
                                 </div>
 
                             </div><!-- co-sidebar-item -->
 
+                            <div class="co-sidebar-item">
+
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+
+                                    <p class="title lead bold"> السعر (جنيه) </p>
+
+                                    <a href="#"> تطبيق</a>
+
+                                </div>
+
+                                <div class="co-range-slider">
+
+                                    <div class="slider-range mb-3"></div>
+
+                                    <div class="d-flex dir-ltr gap-2">
+
+                                        <input class="form-control" id="from-value" placeholder="From" type="text" value="8">
+                                        <input class="form-control" id="to-value" placeholder="To" type="text" value="88">
+
+                                    </div> <!-- d-flex -->
+
+                                </div><!-- co-range-slider" -->
+                            </div><!-- co-sidebar-item -->
                         </div><!-- co-form -->
                     </div><!-- co-sidebar -->
                 </div><!-- col -->
@@ -500,10 +528,10 @@
     </div>
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-            <i class="icon icon-arrow_Right"></i>
+              <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-            <i class="icon icon-arrow_Left"></i>
+              <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>
@@ -706,10 +734,10 @@
     </div>
     <div class="best-offers__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button best-offers-navigation__button--prev">
-            <i class="icon icon-arrow_Right"></i>
+              <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button best-offers-navigation__button--next">
-            <i class="icon icon-arrow_Left"></i>
+              <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>

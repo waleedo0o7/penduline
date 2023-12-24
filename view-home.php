@@ -109,12 +109,14 @@
         </div>
       </div>
       <div class="day-offers__navigation co-swiper-navigation">
-        <a class="co-swiper-navigation__button color-white day-offers-navigation__button--next">
+        <a class="co-swiper-navigation__button color-white day-offers-navigation__button--prev">
           <i class="fa fa-chevron-left"></i>
         </a>
-        <a class="co-swiper-navigation__button color-white day-offers-navigation__button--prev">
+
+        <a class="co-swiper-navigation__button color-white day-offers-navigation__button--next">
           <i class="fa fa-chevron-right"></i>
         </a>
+
       </div>
     </section>
     <!-- DAY OFFER END -->
@@ -659,10 +661,10 @@
     </div>
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
       <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-        <i class="fa fa-chevron-right"></i>
+        <i class="fa fa-chevron-left"></i>
       </a>
       <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-        <i class="fa fa-chevron-left"></i>
+        <i class="fa fa-chevron-right"></i>
       </a>
     </div>
   </section>
@@ -1014,10 +1016,10 @@
     </div>
     <div class="best-seller-swiper__navigation co-swiper-navigation co-swiper-navigation--gray">
       <a class="co-swiper-navigation__button best-seller-swiper-navigation__button--prev">
-        <i class="fa fa-chevron-right"></i>
+        <i class="fa fa-chevron-left"></i>
       </a>
       <a class="co-swiper-navigation__button best-seller-swiper-navigation__button--next">
-        <i class="fa fa-chevron-left"></i>
+        <i class="fa fa-chevron-right"></i>
       </a>
     </div>
   </section>
@@ -1146,10 +1148,10 @@
     </div>
     <div class="saving-area-swiper-swiper__navigation co-swiper-navigation co-swiper-navigation--gray">
       <a class="co-swiper-navigation__button saving-area-swiper-swiper-navigation__button--prev">
-        <i class="fa fa-chevron-right"></i>
+        <i class="fa fa-chevron-left"></i>
       </a>
       <a class="co-swiper-navigation__button saving-area-swiper-navigation__button--next">
-        <i class="fa fa-chevron-left"></i>
+        <i class="fa fa-chevron-right"></i>
       </a>
     </div>
   </section>
@@ -1243,10 +1245,10 @@
           </div>
           <div class="partners-academic-swiper__navigation co-swiper-navigation co-swiper-navigation--gray">
             <a class="co-swiper-navigation__button partners-academic-swiper-navigation__button--prev">
-              <i class="fa fa-chevron-right"></i>
+              <i class="fa fa-chevron-left"></i>
             </a>
             <a class="co-swiper-navigation__button partners-academic-swiper-navigation__button--next">
-              <i class="fa fa-chevron-left"></i>
+              <i class="fa fa-chevron-right"></i>
             </a>
           </div>
         </div>
@@ -1304,10 +1306,10 @@
           </div>
           <div class="partners-ecommerce-swiper__navigation co-swiper-navigation co-swiper-navigation--gray">
             <a class="co-swiper-navigation__button partners-ecommerce-swiper-navigation__button--prev">
-              <i class="fa fa-chevron-right"></i>
+              <i class="fa fa-chevron-left"></i>
             </a>
             <a class="co-swiper-navigation__button partners-ecommerce-swiper-navigation__button--next">
-              <i class="fa fa-chevron-left"></i>
+              <i class="fa fa-chevron-right"></i>
             </a>
           </div>
         </div>

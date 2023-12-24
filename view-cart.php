@@ -70,8 +70,8 @@
                                             <div class="co-item-select-and-offer">
 
                                                 <div class="co-select">
-                                                    <select class="header__nav-list__track-order">
-                                                        <option value="0"> 1 </option>
+                                                    <select class="select">
+                                                        <option value="0"> 000 </option>
                                                         <option value="0"> 2 </option>
                                                         <option value="0"> 3 </option>
                                                         <option value="0"> 4 </option>
@@ -131,8 +131,8 @@
                                             <div class="co-item-select-and-offer">
 
                                                 <div class="co-select">
-                                                    <select class="header__nav-list__track-order">
-                                                        <option value="0"> 1 </option>
+                                                    <select class="select">
+                                                        <option value="0"> 1111 </option>
                                                         <option value="0"> 2 </option>
                                                         <option value="0"> 3 </option>
                                                         <option value="0"> 4 </option>

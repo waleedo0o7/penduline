@@ -226,19 +226,17 @@ a {
 }
 
 select.select {
-  height: 40px;
+  height: 35px;
   border-color: #878787;
-  outline-color: #878787;
   border-radius: 30px;
-  padding: 0 30px;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  padding-inline-end: 30px;
+  padding-inline-start: 10px;
   appearance: none;
   background-image: url(../icons/down-arrow.svg);
   background-repeat: no-repeat;
-  background-position-x: 10px;
+  background-position-x: calc(100% - 10px);
   background-position-y: 50%;
-  background-size: 12px;
+  background-size: 11px;
 }
 
 .co-products-list-header {
@@ -323,6 +321,16 @@ select.select {
   &:hover {
     color: $primary-color;
   }
+}
+
+.gap-1 {
+  gap: 5px;
+}
+.gap-2 {
+  gap: 10px;
+}
+.gap-3 {
+  gap: 15px;
 }
 
 // end new components code
@@ -816,8 +824,50 @@ select.select {
     display: flex;
     flex-direction: column;
 
-    .day-offers-navigation__button--next{
+    .day-offers-navigation__button--prev {
       margin-bottom: 15px;
+    }
+  }
+}
+
+.co-range-slider {
+  margin: 0;
+  padding: 0;
+  #sliderrange,
+  #sliderrange-one-axis,
+  .slider-range,
+  .range-slider {
+    width: 100%;
+    background: $color-grey;
+  }
+
+  .ui-widget.ui-widget-content {
+    border: none;
+  }
+
+  .ui-state-default,
+  .ui-widget-content .ui-state-default {
+    border-color: $primary-color !important;
+    background-color: $primary-color !important;
+    border-radius: 100px;
+    border-width: 2px;
+    margin-top: -3px;
+  }
+
+  .ui-slider-horizontal {
+    height: 3px;
+    .ui-slider-range {
+      background-color: $primary-color;
+    }
+  }
+
+  .slider-range-values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px -5px;
+    p {
+      font-size: 14px;
     }
   }
 }

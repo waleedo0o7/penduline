@@ -198,6 +198,7 @@ jQuery(document).ready(function ($) {
   showMobileMenu();
   closeMobileMenu();
   productSliderSwiper();
+  initSliderRange();
 });
 
 function scrollFunction(topButton, headerNav) {
@@ -225,16 +226,11 @@ function showMobileMenu() {
   });
 }
 
-
 function closeMobileMenu() {
   $('.close-mobile-menu').on("click", function () {
     $(".header__top").removeClass('show')
   });
 }
-
-
-
-
 
 let productSliderSwiper = () => {
 
@@ -272,5 +268,39 @@ let productSliderSwiper = () => {
       swiper: swiperProductsThumbsSlider,
     },
   });
+
+}
+
+
+
+let initSliderRange = (initStart, initEnd) => {
+
+  initStart = $("#from-value").val();
+  initEnd = $("#to-value").val();
+
+  $.fn.rangeSlider = function (options) {
+    return $(this).slider({
+      range: true,
+      min: 0,
+      max: 100,
+      values: [initStart, initEnd]
+    });
+  };
+
+  $(".slider-range").rangeSlider();
+
+  setTimeout(() => {
+    $(".slider-range").on("slide", function (event, ui) {
+
+      let startVal = ui.values[0];
+      let endVal = ui.values[1];
+
+      console.log($(event.target).parents(".co-range-slider"))
+
+      $(event.target).parents(".co-range-slider").find("#from-value").val(startVal)
+      $(event.target).parents(".co-range-slider").find("#to-value").val(endVal)
+
+    });
+  }, 200);
 
 }

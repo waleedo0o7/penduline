@@ -188,8 +188,8 @@
     <div class="footer__copy-rights">
       <div class="footer__copy-rights__logo">
         <img src="assets/images/Brand/logo-main.png" alt="Logo">
-        <h2 class="footer__copy-rights__logo__heading lead">جميع الحقوق محفوظة للمركز الوطني لكفاءة وترشيد المياه
-          2023</h2>
+        <p class="footer__copy-rights__logo__heading">جميع الحقوق محفوظة للمركز الوطني لكفاءة وترشيد المياه
+          2023</p>
       </div>
 
       <div>
@@ -232,7 +232,11 @@
 <script src="other/js/swiper-bundle.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+
+<script src="other/js/jquery-ui.js"></script>
+
 <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>

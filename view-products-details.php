@@ -406,8 +406,8 @@
 
                     <div class="co-add-to-cart-by-quantity">
 
-                        <select class="header__nav-list__track-order">
-                            <option value="0"> 1 </option>
+                        <select class="select">
+                            <option value="0"> 333 </option>
                             <option value="0"> 2 </option>
                             <option value="0"> 3 </option>
                             <option value="0"> 4 </option>
@@ -507,10 +507,10 @@
 
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-            <i class="icon icon-arrow_Right"></i>
+              <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-            <i class="icon icon-arrow_Left"></i>
+              <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 
@@ -586,10 +586,10 @@
 
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-            <i class="icon icon-arrow_Right"></i>
+              <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-            <i class="icon icon-arrow_Left"></i>
+              <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 
@@ -840,10 +840,10 @@
     </div>
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-            <i class="icon icon-arrow_Right"></i>
+              <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-            <i class="icon icon-arrow_Left"></i>
+              <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>

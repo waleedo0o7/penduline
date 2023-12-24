@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+
+<html dir="<?php if (isset($_GET['dir']))   echo $_GET['dir']; ?>">
 
 <head>
   <meta charset="UTF-8" />
@@ -11,12 +12,15 @@
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css" />
 
   <?php
-    if (isset($_GET['dir']))
-      echo '<link rel="stylesheet" href="assets/css/style-rtl.min.css" />';
-    else {
-      echo '<link rel="stylesheet" href="assets/css/style-ltr.min.css" />';
-    }
+  if (isset($_GET['dir']))
+    echo '<link rel="stylesheet" href="assets/css/style-rtl.min.css" />';
+  else {
+    echo '<link rel="stylesheet" href="assets/css/style-ltr.min.css" />';
+  }
   ?>
+
+
+  <link href="other/css/jquery-ui.css" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />

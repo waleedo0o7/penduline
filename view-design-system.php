@@ -3,6 +3,7 @@
 <div class="container my-5">
 
     <div class="row">
+
         <div class="col-md-6">
 
             <h2> Forms : </h2>
@@ -139,7 +140,6 @@
 
         </div>
 
-
         <div class="col-md-6">
 
             <div class="custom-accordion" id="accordion">
@@ -182,11 +182,7 @@
                 </div>
             </div> <!-- custom-accordion -->
 
-
-
         </div>
-
-
 
         <div class="col-md-6">
 
@@ -224,7 +220,28 @@
 
 
         </div>
-    </div>
-</div>
+
+        <div class="col-md-6">
+
+            <h1 class="mb-3"> slider Range </h1>
+
+            <div class="co-range-slider">
+
+                <div class="slider-range mb-3"></div>
+
+                <div class="d-flex dir-ltr gap-2">
+
+                    <input class="form-control" id="from-value" placeholder="From age" type="text" value="8">
+                    <input class="form-control" id="to-value" placeholder="To age" type="text" value="88">
+
+                </div> <!-- d-flex -->
+
+            </div><!-- co-range-slider" -->
+
+        </div>
+
+    </div> <!-- row -->
+
+</div> <!-- container -->
 
 <?php include 'layout-footer.php'; ?>
