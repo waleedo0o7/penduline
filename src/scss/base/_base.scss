@@ -1,22 +1,25 @@
+ 
 html,
 body {
   direction: #{$direction};
   text-align: #{$left};
   box-sizing: border-box;
-  font-family: $fontFamily;
+  // font-family: $fontFamily;
   color: $color-dark;
   font-size: 14px;
   overflow-x: hidden;
+  font-family: din;
 }
 
 body {
   overflow: hidden;
-  background-color: #ffff;
+  background-color: #ffff; 
 
   &.light {
     background-color: #f2f4f7;
   }
 }
+
 
 html {
   scroll-behavior: smooth;

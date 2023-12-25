@@ -65,7 +65,7 @@
     }
   }
 
-  @include media-breakpoint-down(xl) {
+  @include media-breakpoint-down(lg) {
     order: 5;
     flex-basis: 100%;
     margin-top: 20px;

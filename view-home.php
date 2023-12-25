@@ -420,7 +420,7 @@
   <section class="recommendations">
     <div class="container">
       <div class="co-section-header">
-        <h2 class="co-section-header__title">من ترشيحاتنا المفضلة</h2>
+        <h2 class="co-section-header__title">من ترشيحاتنا المفضلة   </h2>
         <button class="btn btn--secondary">استكشف المزيد</button>
       </div>
     </div>

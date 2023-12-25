@@ -28,7 +28,6 @@
           .fa {
             font-size: 28px;
           }
-
         }
       }
 
@@ -54,7 +53,7 @@
       .co-search,
       .co-language-switcher {
         width: 50% !important;
-        margin-bottom: 40px !important; 
+        margin-bottom: 40px !important;
       }
     }
 
@@ -80,7 +79,7 @@
       @include flex(center);
       column-gap: 50px;
 
-      @include media-breakpoint-down(xl) {
+      @include media-breakpoint-down(lg) {
         flex-direction: column;
         padding: 0;
       }
@@ -92,7 +91,7 @@
       outline-color: #878787;
       border-radius: 30px;
       padding: 0 20px;
-      @extend %dropdown-arrow; 
+      @extend %dropdown-arrow;
       margin: 0 !important;
       margin-inline-start: auto !important;
 
@@ -112,15 +111,19 @@
   &__nav {
     color: $text-color;
     @include flex(center);
+    align-items: stretch;
     margin-inline-end: auto;
 
     &__item {
-      padding: 15px 20px;
       height: 100%;
 
       &__link {
-        font-size: rem(13);
+        font-size: rem(16);
         font-weight: bold;
+        padding: 12px 15px;
+        height: 100%;
+        display: inline-flex;
+        color: $secondary-color;
       }
 
       &:hover,
@@ -134,7 +137,7 @@
       }
     }
 
-    @include media-breakpoint-down(xl) {
+    @include media-breakpoint-down(lg) {
       width: 100%;
       overflow: auto;
 
@@ -157,7 +160,7 @@
       cursor: pointer;
       i {
         font-size: 24px;
-        color: #FFF;
+        color: #fff;
       }
     }
   }

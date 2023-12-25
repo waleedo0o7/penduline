@@ -6,6 +6,43 @@
 
         <div class="col-md-6">
 
+            <h3> icons </h3>
+
+            <i class="icon icon-trash"></i>
+
+            <i class="icon icon-love"></i>
+
+            <i class="icon icon-availability"></i>
+
+            <div class="d-inline-flex co-icon-colored">
+                <span class="icon-award-badge-colored"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+            </div>
+
+            <div class="d-inline-flex co-icon-colored">
+                <span class="icon-return-colored"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span>
+            </div>
+
+            <i class="icon icon-car-speed"></i>
+
+            <i class="icon icon-dish"></i>
+
+            <hr>
+
+            <h3> sizes </h3>
+
+            <i class="icon icon-xs icon-love"></i>
+            <i class="icon icon-sm icon-love"></i>
+            <i class="icon icon-md icon-love"></i>
+            <i class="icon icon-lg icon-love"></i>
+            <i class="icon icon-xl icon-love"></i>
+
+
+            <p class="test-p"> test </p>
+
+        </div>
+
+        <div class="col-md-6">
+
             <h2> Forms : </h2>
 
             <div class="form-group">
@@ -188,11 +225,25 @@
 
             <h2> buttons </h2>
 
+            <div style="background-color: #f00;">
+                <button type="button" class="btn btn--primary mb-1"> --Primary </button>
+            </div>
+            <div style="background-color: #f00;">
+                <button type="button" class="btn btn--primary mb-2"> --Primary </button>
+            </div>
+            <div style="background-color: #f00;">
+                <button type="button" class="btn btn--primary mb-3"> --Primary </button>
+            </div>
+            <div style="background-color: #f00;">
+                <button type="button" class="btn btn--primary mb-4"> --Primary </button>
+            </div>
+            <div style="background-color: #f00;">
+                <button type="button" class="btn btn--primary mb-5"> --Primary </button>
+            </div>
 
-            <button type="button" class="btn btn--primary"> --Primary </button>
+
+            <button type="button" class="btn btn--primary mb-2"> --Primary </button>
             <button type="button" class="btn btn--secondary"> --Secondary </button>
-
-
             <button type="button" class="btn btn-primary">Primary</button>
             <button type="button" class="btn btn-secondary">Secondary</button>
             <button type="button" class="btn btn-success">Success</button>
@@ -207,8 +258,6 @@
 
             <button type="button" class="btn btn--outline--primary"> --Primary </button>
             <button type="button" class="btn btn--outline--secondary"> --Secondary </button>
-
-
             <button type="button" class="btn btn-outline-primary">Primary</button>
             <button type="button" class="btn btn-outline-secondary">Secondary</button>
             <button type="button" class="btn btn-outline-success">Success</button>

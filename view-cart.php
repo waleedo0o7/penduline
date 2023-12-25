@@ -97,7 +97,7 @@
                                         <div class="col-md-6">
                                             <div class="d-inline-flex align-items-center">
 
-                                                <img src="assets/images/icon-availability.svg" class="m-1" style="width: 20px;" alt="">
+                                                <i class="icon icon-availability"></i>
 
                                                 <p class="mb-0"> سيتم توصيل المنتج في خلال من يومان الي اربع ايام عمل </p>
 
@@ -158,7 +158,7 @@
                                         <div class="col-md-6">
                                             <div class="d-inline-flex align-items-center">
 
-                                                <img src="assets/images/icon-availability.svg" class="m-1" style="width: 20px;" alt="">
+                                                <i class="icon icon-availability"></i>
 
                                                 <p class="mb-0"> سيتم توصيل المنتج في خلال من يومان الي اربع ايام عمل </p>
 

@@ -5,6 +5,7 @@
         <div class="product-page-wrapper">
 
             <div class="co-product-slider">
+
                 <div class="product-slider">
 
                     <div class="swiper swiper-products-thumbs-slider">
@@ -119,33 +120,29 @@
                     </div>
                 </div> <!-- product-slider -->
 
-
                 <div class="co-help-cards">
+
                     <div class="help-card">
-                        <img src="assets/images/icon-bx-dish-solid.svg" style="width: 30px;" class="img-fluid mb-3" alt="">
+                        <i class="icon icon-dish-solid mb-2"></i>
                         <p class="bold mb-0"> المكونات الكاملة </p>
                     </div> <!-- help-card -->
 
                     <div class="help-card">
-                        <img src="assets/images/icon-bx-dish.svg" style="width: 30px;" class="img-fluid mb-3" alt="">
+                        <i class="icon icon-dish mb-2"></i>
                         <p class="bold mb-0"> المكونات الفعالة </p>
                     </div> <!-- help-card -->
 
                     <div class="help-card">
-                        <img src="assets/images/icon-security.svg" style="width: 30px;" class="img-fluid mb-3" alt="">
+                        <i class="icon icon-guard-shield mb-2"></i>
                         <p class="bold mb-0"> الأمان </p>
                     </div> <!-- help-card -->
 
                     <div class="help-card">
-                        <img src="assets/images/icon-question-circle-o.svg" style="width: 30px;" class="img-fluid mb-3" alt="">
+                        <i class="icon icon-question-mark mb-2"></i>
                         <p class="bold mb-0"> طرق الاستخدام </p>
                     </div> <!-- help-card -->
 
-
-
-
                 </div><!-- co-cards -->
-
 
                 <div class="co-product-additional-info">
 
@@ -297,7 +294,7 @@
 
                                 <p> حلو ريحته حلوه حلو ريحته حلوه حلو ريحته حلوه حلو ريحته حلوه </p>
 
-                                <button type="button" class="btn btn-outline-dark"> like <img src="assets/images/icon-like.svg" style="width: 15px;" alt=""> </button>
+                                <button type="button" class="btn btn-outline-dark">  كان مفيدا  <i class="icon icon-like-hand"></i> </button>
 
                             </div><!-- co-review-details -->
 
@@ -312,7 +309,7 @@
             <div class="co-product-details">
 
                 <div class="co-product__title">
-                    <h1> كريم مرطب بندولين للوجه والجسم واليدين واليدين واليدين واليدين  </h1>
+                    <h1 class="product__title"> كريم مرطب بندولين للوجه والجسم واليدين واليدين واليدين واليدين </h1>
                 </div> <!-- co-product__title -->
 
                 <div class="co-product-size-category d-flex">
@@ -363,7 +360,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="availability-card">
-                                <img src="assets/images/icon-availability.svg" class="mb-3" style="width: 30px;" alt="">
+                                <i class="icon icon-availability mb-3"></i>
                                 <p class="mb-0"> اطلبه الأن واحصل عليه في </p>
                                 <p class="mb-0 lead bold"> الأحد , 3 مايو 2024 </p>
                             </div><!-- availability-card -->
@@ -371,7 +368,7 @@
 
                         <div class="col-md-4">
                             <div class="availability-card">
-                                <img src="assets/images/icon-availability.svg" class="mb-3" style="width: 30px;" alt="">
+                                <i class="icon icon-availability mb-3"></i>
                                 <p class="mb-0"> اطلبه الأن واحصل عليه في </p>
                                 <p class="mb-0 lead bold"> الأحد , 3 مايو 2024 </p>
                             </div><!-- availability-card -->
@@ -379,11 +376,13 @@
 
                         <div class="col-md-4">
                             <div class="availability-card">
-                                <img src="assets/images/icon-availability.svg" class="mb-3" style="width: 30px;" alt="">
+                                <i class="icon icon-availability mb-3"></i>
                                 <p class="mb-0"> اطلبه الأن واحصل عليه في </p>
                                 <p class="mb-0 lead bold"> الأحد , 3 مايو 2024 </p>
-
-                                <img src="assets/images/icon-availability-label.svg" class="availability-label" alt="">
+                                <div class="availability-label">
+                                    <span class="me-1"> سريع </span>
+                                    <i class="icon icon-car-speed"></i>
+                                </div>
                             </div><!-- availability-card -->
                         </div> <!-- col-md-4 -->
 
@@ -395,9 +394,16 @@
 
                 <div class="co-advantages">
 
-                    <p class="bold"> <img src="assets/images/icon-free_returns.svg" class="img-fluid" alt=""> رجوع مجاني أمن خلال 14 يوم </p>
+                    <p class="bold">
+                        <span class="co-image-icon"><img src="assets/images/icon-free_returns.svg" class="img-fluid" alt=""> </span>
+                        رجوع مجاني أمن خلال 14 يوم
+                    </p>
 
-                    <p class="bold"> <img src="assets/images/icon-warranty.svg" class="img-fluid" alt=""> ضمان بندولين الكامل </p>
+
+                    <p class="bold">
+                        <span class="co-image-icon"><img src="assets/images/icon-warranty.svg" class="img-fluid" alt=""> </span>
+                        ضمان بندولين الكامل
+                    </p>
 
 
                 </div><!-- co-advantages -->
@@ -507,10 +513,10 @@
 
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-              <i class="fa fa-chevron-left"></i>
+            <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-              <i class="fa fa-chevron-right"></i>
+            <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 
@@ -586,10 +592,10 @@
 
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-              <i class="fa fa-chevron-left"></i>
+            <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-              <i class="fa fa-chevron-right"></i>
+            <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 
@@ -840,10 +846,10 @@
     </div>
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-              <i class="fa fa-chevron-left"></i>
+            <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-              <i class="fa fa-chevron-right"></i>
+            <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>
