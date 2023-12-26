@@ -30,7 +30,7 @@
         <a href="#" class="co-language-switcher__link" type="button" id="changeLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img class="co-language-switcher__flag" src="assets/images/Flag/egypt.png" alt="EGYPT" />
           <span class="co-language-switcher__link__label color-white">مصر</span>
-          <i class="icon icon-arrow_dropdown"></i>
+          <i class="icon icon-arrow_dropdown icon-xl color-white"></i>
         </a>
         <div class="dropdown-menu" aria-labelledby="changeLang" x-placement="bottom-start" style="
                 position: absolute;
