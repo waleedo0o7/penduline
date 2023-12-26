@@ -68,21 +68,21 @@
       <div class="co-icon-container">
         <i class="icon icon-love"></i>
         <div>
-          <span class="co-icon-container__label">المفضله</span>
+          <!-- <span class="co-icon-container__label">المفضله</span> -->
           <span class="co-icon-container__title">قائمة مفضلاتك</span>
         </div>
       </div>
       <a href="view-cart.php?dir=rtl" class="color-white co-icon-container">
         <i class="icon icon-cart"></i>
         <div>
-          <span class="co-icon-container__label">عربة</span>
+          <!-- <span class="co-icon-container__label">عربة</span> -->
           <span class="co-icon-container__title">عربة التسوق</span>
         </div>
       </a>
       <div class="co-icon-container">
         <i class="icon icon-user-3"></i>
         <div>
-          <span class="co-icon-container__label">حسابك</span>
+          <!-- <span class="co-icon-container__label">حسابك</span> -->
           <span class="co-icon-container__title">حسابك</span>
         </div>
       </div>

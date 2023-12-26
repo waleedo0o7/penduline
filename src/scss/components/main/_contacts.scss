@@ -6,6 +6,11 @@
 
   &__icon {
     font-size: rem(35);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__label {
@@ -17,4 +22,9 @@
   &__value {
     font-size: rem(20);
   }
+ 
+  
+  
 }
+
+ 

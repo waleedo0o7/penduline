@@ -8,26 +8,21 @@
       <div class="swiper day-offers-swiper">
         <div class="swiper-wrapper">
 
-
           <div class="swiper-slide">
-
             <div class="co-day-offer-text">
               <p class="lead text-white mb-0"> يبدأ من </p>
               <h1 class="text-white mb-3"> 199$ </h1>
               <h5 class="text-white mb-3"> كريم مرطب بندولين للوجه والجسم واليدين </h5>
               <h2 class="bold text-white mb-5"> للوجه والجسم واليدين </h2>
               <a href="view-products-list.php" class="btn btn--secondary--inverted">استكشف المزيد</a>
-            </div>
-
+            </div> <!-- co-day-offer-text -->
           </div> <!-- swiper-slide -->
 
 
           <div class="swiper-slide">
-
             <div class="co-day-offer-bg-image">
               <img src="assets/images/product-001.png" class="img-fluid" alt="">
-            </div>
-
+            </div> <!-- co-day-offer-bg-image -->
           </div> <!-- swiper-slide -->
 
 
@@ -420,7 +415,7 @@
   <section class="recommendations">
     <div class="container">
       <div class="co-section-header">
-        <h2 class="co-section-header__title">من ترشيحاتنا المفضلة   </h2>
+        <h2 class="co-section-header__title">من ترشيحاتنا المفضلة </h2>
         <button class="btn btn--secondary">استكشف المزيد</button>
       </div>
     </div>
@@ -1157,8 +1152,58 @@
   </section>
   <!-- SAVING AREA SECTION END -->
 
+
+
+
+
+  <section class="doodle-and-win">
+
+    <div class="container">
+      <div class="doodle-and-win-content">
+        <div class="co-bg-image-1">
+          <img src="assets/images/home-win-bg-1.png" class="img-fluid bg-image" alt="">
+          <img src="assets/images/intro-bg.png" class="img-fluid start-image" alt="">
+        </div><!-- co-bg-image -->
+        <div class="co-bg-image-2">
+          <div class="section-bg" style="background-image: url(assets/images/home-win-bg-2.png);">
+
+            <div class="section-content h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+
+                <div class="col-lg-6">
+                  <h2 class="mb-2"> خربش واكسب </h2>
+                  <p class="m-0"> الكود أمان ومكسب كمان </p>
+                  <p class="m-0"> برنامج نقاط وهدايا مجانيه مع بندولين وبس </p>
+                </div><!-- col-lg-6 -->
+
+                <div class="col-lg-6">
+                  <div class="text-center">
+
+                    <a href="#">
+                      <img src="assets/images/play-circle.svg" class="play-circle-icon mb-3" alt="">
+                      <p class="color-white"> تشغيل الفيديو </p>
+                    </a>
+
+                    <a href="#" class="btn btn--primary--inverted"> برنامج استبدال النقاط </a>
+
+                  </div><!-- text-center -->
+                </div><!-- col-lg-6 -->
+
+              </div><!-- row -->
+            </div><!-- section-content -->
+
+          </div>
+
+        </div><!-- co-bg-image -->
+      </div><!-- doodle-and-win-content -->
+    </div>
+  </section>
+
+
+
   <!-- BLOG SECTION START -->
   <section class="blog">
+
     <div class="container">
       <div class="co-section-header">
         <h2 class="co-section-header__title">المدونة</h2>
@@ -1166,22 +1211,44 @@
       </div>
 
       <div class="row">
+
+
         <div class="col-md-6 mb-4">
           <div class="co-blog">
-            <h2 class="co-blog__title">10 اسباب تجعل منتجات الاطفال مفيدة لجمالك</h2>
-            <h3 class="co-blog__date">10 يوليو 2024</h3>
-            <p class="co-blog__description">تنتشر هذه العدوى بسبب الفطريات عندما يشارك الأطفال الأدوات الشخصية مثل الأمشاط والقبعات ويعرف أيضًا باسم سعفة فروة الرأس وهو أحد الأمراض الشائعة،</p>
-            <button class="btn btn--secondary">التفاصيل</button>
-          </div>
-        </div>
+            <div class="co-image">
+              <img src="assets/images/blog-2.jpg" class="img-fluid w-100" alt="">
+            </div> <!-- co-image -->
+
+            <div class="co-details">
+              <div class="details-bg"></div>
+              <h2 class="co-blog__title show-line show-line-2">10 اسباب تجعل منتجات الاطفال مفيدة لجمالك</h2>
+              <h3 class="co-blog__date">10 يوليو 2024</h3>
+              <p class="co-blog__description show-line show-line-2">تنتشر هذه العدوى بسبب الفطريات عندما يشارك الأطفال الأدوات الشخصية مثل الأمشاط والقبعات ويعرف أيضًا باسم سعفة فروة الرأس وهو أحد الأمراض الشائعة،</p>
+              <button class="btn btn--primary">التفاصيل</button>
+            </div> <!-- co-details -->
+          </div> <!-- co-blog -->
+        </div> <!-- col-md-6 -->
+
         <div class="col-md-6 mb-4">
           <div class="co-blog">
-            <h2 class="co-blog__title">10 اسباب تجعل منتجات الاطفال مفيدة لجمالك</h2>
-            <h3 class="co-blog__date">10 يوليو 2024</h3>
-            <p class="co-blog__description">تنتشر هذه العدوى بسبب الفطريات عندما يشارك الأطفال الأدوات الشخصية مثل الأمشاط والقبعات ويعرف أيضًا باسم سعفة فروة الرأس وهو أحد الأمراض الشائعة،</p>
-            <button class="btn btn--secondary">التفاصيل</button>
-          </div>
-        </div>
+            <div class="co-image">
+              <img src="assets/images/blog-1.jpg" class="img-fluid w-100" alt="">
+            </div> <!-- co-image -->
+
+            <div class="co-details">
+              <div class="details-bg"></div>
+              <h2 class="co-blog__title show-line show-line-2">10 اسباب تجعل منتجات الاطفال مفيدة لجمالك</h2>
+              <h3 class="co-blog__date">10 يوليو 2024</h3>
+              <p class="co-blog__description show-line show-line-2">تنتشر هذه العدوى بسبب الفطريات عندما يشارك الأطفال الأدوات الشخصية مثل الأمشاط والقبعات ويعرف أيضًا باسم سعفة فروة الرأس وهو أحد الأمراض الشائعة،</p>
+              <button class="btn btn--primary">التفاصيل</button>
+            </div> <!-- co-details -->
+          </div> <!-- co-blog -->
+        </div> <!-- col-md-6 -->
+
+
+
+
+
       </div>
     </div>
   </section>
