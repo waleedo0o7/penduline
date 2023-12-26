@@ -1171,9 +1171,9 @@
               <div class="row d-flex justify-content-center align-items-center h-100">
 
                 <div class="col-lg-6">
-                  <h2 class="mb-2"> خربش واكسب </h2>
-                  <p class="m-0"> الكود أمان ومكسب كمان </p>
-                  <p class="m-0"> برنامج نقاط وهدايا مجانيه مع بندولين وبس </p>
+                  <h1 class="mb-4 color-pink" > خربش واكسب </h1>
+                  <p class=" lead m-0"> الكود أمان ومكسب كمان </p>
+                  <p class=" lead m-0"> برنامج نقاط وهدايا مجانيه مع بندولين وبس </p>
                 </div><!-- col-lg-6 -->
 
                 <div class="col-lg-6">
