@@ -7,6 +7,20 @@
     font-size: rem(30);
     font-weight: bold;
     color: $text-color;
+
+
+    @include media-breakpoint-down(md) {
+      font-size: rem(22);
+    }
+
+    
+  }
+
+  .btn{
+    @include media-breakpoint-down(md) {
+      padding: 10px 12px;
+      font-size: rem(12);
+    }
   }
 }
 

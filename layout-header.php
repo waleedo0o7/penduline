@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/css/animate.min.css" />
   <!-- <link rel="stylesheet" href="assets/css/swiper.min.css" /> -->
-  <link rel="stylesheet" type="text/css" href="other/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="other/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css" />
   <link rel="stylesheet" href="other/icomoon-dist.css" />
 
@@ -20,8 +20,14 @@
   }
   ?>
 
+  <link href="other/css/jquery-ui.css" rel="stylesheet">
 
-  <link href="other/css/jquery-ui.css" rel="stylesheet" type="text/css">
+
+
+  <!-- Fancybox -->
+  <link href="other/css/jquery.fancybox.min.css" rel="stylesheet" />
+
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 

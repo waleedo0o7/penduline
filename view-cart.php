@@ -57,7 +57,7 @@
                                 <div class="co-cart-item-header d-flex justify-content-between align-items-center">
                                     <a href="view-products-details.php" class="mb-3"> بندولين كريم للشعر </a>
                                     <a href="#" class="co-action">
-                                        <i class="fa-solid fa-trash color-danger"></i>
+                                        <i class="icon icon-lg icon-trash color-danger"></i>
                                     </a>
                                 </div><!-- co-cart-item-header -->
 
@@ -97,7 +97,7 @@
                                         <div class="col-md-6">
                                             <div class="d-inline-flex align-items-center">
 
-                                                <i class="icon icon-availability"></i>
+                                                <i class="me-2 icon icon-xl icon-availability"></i>
 
                                                 <p class="mb-0"> سيتم توصيل المنتج في خلال من يومان الي اربع ايام عمل </p>
 
@@ -118,7 +118,7 @@
                                 <div class="co-cart-item-header d-flex justify-content-between align-items-center">
                                     <a href="view-products-details.php" class="mb-3"> بندولين كريم للشعر </a>
                                     <a href="#" class="co-action">
-                                        <i class="fa-solid fa-trash color-danger"></i>
+                                        <i class="icon icon-lg icon-trash color-danger"></i>
                                     </a>
                                 </div><!-- co-cart-item-header -->
 
@@ -158,7 +158,7 @@
                                         <div class="col-md-6">
                                             <div class="d-inline-flex align-items-center">
 
-                                                <i class="icon icon-availability"></i>
+                                                <i class="me-2 icon icon-xl icon-availability"></i>
 
                                                 <p class="mb-0"> سيتم توصيل المنتج في خلال من يومان الي اربع ايام عمل </p>
 
@@ -186,7 +186,7 @@
 
 
                 <div class="col-md-5">
-                    <div class="co-cart-section p-5">
+                    <div class="co-order-pref p-5">
 
                         <div class="co-cart-header">
                             <h3 class="mb-4"> ملخص الطلب </h3>
@@ -230,11 +230,11 @@
 
 
                         <div class="d-flex">
-                            <a href="#" class="btn btn--secondary w-75 m-auto"> شراء الأن </a>
+                            <a href="view-checkout-1.php" class="btn btn--secondary w-75 m-auto"> شراء الأن </a>
                         </div>
 
 
-                    </div> <!-- co-cart-section -->
+                    </div> <!-- co-order-pref -->
                 </div> <!-- col-->
 
 

@@ -199,6 +199,7 @@ jQuery(document).ready(function ($) {
   closeMobileMenu();
   productSliderSwiper();
   initSliderRange();
+  initFancyBox();
 });
 
 function scrollFunction(topButton, headerNav) {
@@ -242,7 +243,7 @@ let productSliderSwiper = () => {
 
   if ($(window).width() <= 1024) {
     sliderDirection = 'horizontal'
-    slidesNumView = 3
+    slidesNumView = 3.5
   } else {
     sliderDirection = 'vertical'
     slidesNumView = 5
@@ -260,18 +261,12 @@ let productSliderSwiper = () => {
 
   swiperProductsSlider = new Swiper(".swiper-products-slider", {
     loop: true,
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
     thumbs: {
       swiper: swiperProductsThumbsSlider,
     },
   });
 
 }
-
-
 
 let initSliderRange = (initStart, initEnd) => {
 
@@ -302,5 +297,16 @@ let initSliderRange = (initStart, initEnd) => {
 
     });
   }, 200);
+
+}
+
+let initFancyBox = () => {
+  $('[data-fancybox]').fancybox({
+    loop: true
+  });
+
+  $('[data-fancybox]').on("init", function () {
+    alert("aaa")
+  })
 
 }

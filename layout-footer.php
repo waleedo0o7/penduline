@@ -2,7 +2,7 @@
 <section class="contacts">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-12 col-xl-4 mb-4">
         <div class="co-contact">
           <div>
             <h2 class="co-contact__label"> نحن هنا دوما لمساعدتك </h2>
@@ -11,11 +11,9 @@
         </div>
       </div>
 
-
-      <div class="col-md-8">
-
+      <div class="col-md-12 col-xl-8">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="co-contact">
               <i class="icon icon-question-mark co-contact__icon"></i>
               <div>
@@ -24,20 +22,20 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="co-contact">
               <i class="icon icon-email-1 co-contact__icon"></i>
               <div>
-                <h2 class="co-contact__label"> دعم عبر البريد الالكتروني  </h2>
+                <h2 class="co-contact__label"> دعم عبر البريد الالكتروني </h2>
                 <h3 class="co-contact__value">help@penduline.com</h3>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="co-contact">
               <i class="icon icon-phone co-contact__icon"></i>
               <div>
-                <h2 class="co-contact__label"> دعم عبر الهاتف  </h2>
+                <h2 class="co-contact__label"> دعم عبر الهاتف </h2>
                 <h3 class="co-contact__value"> 15248 </h3>
               </div>
             </div>
@@ -57,7 +55,7 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-4 col-xl-2">
         <ul class="footer__list reset-list">
           <li class="footer__list__item footer__list__item--heading">الخدمات التقنية</li>
           <li class="footer__list__item">
@@ -82,7 +80,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-4 col-xl-2">
         <ul class="footer__list reset-list">
           <li class="footer__list__item footer__list__item--heading">الخدمات التقنية</li>
           <li class="footer__list__item">
@@ -107,7 +105,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-4 col-xl-2">
         <ul class="footer__list reset-list">
           <li class="footer__list__item footer__list__item--heading">الخدمات التقنية</li>
           <li class="footer__list__item">
@@ -132,7 +130,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-4 col-xl-2">
         <ul class="footer__list reset-list">
           <li class="footer__list__item footer__list__item--heading">الخدمات التقنية</li>
           <li class="footer__list__item">
@@ -235,6 +233,9 @@
   </div>
 </footer>
 <!-- FOOTER SECTION END -->
+
+
+
 <script src="assets/js/jquery-3.4.1.min.js"></script>
 <!-- <script src="assets/js/swiper.min.js"></script> -->
 <script src="other/js/swiper-bundle.min.js"></script>
@@ -242,6 +243,10 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script src="other/js/jquery-ui.js"></script>
+
+<!-- Fancybox -->
+<script src="other/js/jquery.fancybox.min.js"></script>
+
 
 <script src="assets/js/app.js"></script>
 

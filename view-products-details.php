@@ -43,7 +43,7 @@
 
                             <div class="swiper-slide">
                                 <div class="image">
-                                    <a data-fancybox="zara-mobile-gallery" href="#">
+                                    <a data-fancybox="zara-mobile-gallery" href="other/img/products/xyz-001.jpg">
                                         <span class='zoom'>
                                             <img alt="" class="img-fluid" src="other/img/products/xyz-001.jpg">
                                         </span>
@@ -55,61 +55,74 @@
 
                             <div class="swiper-slide">
                                 <div class="image">
-                                    <a data-fancybox="zara-mobile-gallery" href="#">
+                                    <a data-fancybox="zara-mobile-gallery" href="other/img/products/xyz-001.jpg">
                                         <span class='zoom'>
                                             <img alt="" class="img-fluid" src="other/img/products/xyz-001.jpg">
                                         </span>
                                     </a>
                                 </div><!-- image -->
                             </div> <!-- swiper-slide -->
+
+
+
 
 
 
                             <div class="swiper-slide">
                                 <div class="image">
-                                    <a data-fancybox="zara-mobile-gallery" href="#">
+                                    <a data-fancybox="zara-mobile-gallery" href="other/img/products/xyz-001.jpg">
                                         <span class='zoom'>
                                             <img alt="" class="img-fluid" src="other/img/products/xyz-001.jpg">
                                         </span>
                                     </a>
                                 </div><!-- image -->
                             </div> <!-- swiper-slide -->
+
+
+
 
 
 
                             <div class="swiper-slide">
                                 <div class="image">
-                                    <a data-fancybox="zara-mobile-gallery" href="#">
+                                    <a data-fancybox="zara-mobile-gallery" href="other/img/products/xyz-001.jpg">
                                         <span class='zoom'>
                                             <img alt="" class="img-fluid" src="other/img/products/xyz-001.jpg">
                                         </span>
                                     </a>
                                 </div><!-- image -->
                             </div> <!-- swiper-slide -->
+
+
+
 
 
 
                             <div class="swiper-slide">
                                 <div class="image">
-                                    <a data-fancybox="zara-mobile-gallery" href="#">
+                                    <a data-fancybox="zara-mobile-gallery" href="other/img/products/xyz-001.jpg">
                                         <span class='zoom'>
                                             <img alt="" class="img-fluid" src="other/img/products/xyz-001.jpg">
                                         </span>
                                     </a>
                                 </div><!-- image -->
                             </div> <!-- swiper-slide -->
+
+
+
 
 
 
                             <div class="swiper-slide">
                                 <div class="image">
-                                    <a data-fancybox="zara-mobile-gallery" href="#">
+                                    <a data-fancybox="zara-mobile-gallery" href="other/img/products/xyz-001.jpg">
                                         <span class='zoom'>
                                             <img alt="" class="img-fluid" src="other/img/products/xyz-001.jpg">
                                         </span>
                                     </a>
                                 </div><!-- image -->
                             </div> <!-- swiper-slide -->
+
 
 
 
@@ -294,7 +307,7 @@
 
                                 <p> حلو ريحته حلوه حلو ريحته حلوه حلو ريحته حلوه حلو ريحته حلوه </p>
 
-                                <button type="button" class="btn btn-outline-dark">  كان مفيدا  <i class="icon icon-like-hand"></i> </button>
+                                <button type="button" class="btn btn-outline-dark"> كان مفيدا <i class="icon icon-like-hand"></i> </button>
 
                             </div><!-- co-review-details -->
 
@@ -393,19 +406,14 @@
                 </div><!-- co-product-availability -->
 
                 <div class="co-advantages">
-
                     <p class="bold">
                         <span class="co-image-icon"><img src="assets/images/icon-free_returns.svg" class="img-fluid" alt=""> </span>
                         رجوع مجاني أمن خلال 14 يوم
                     </p>
-
-
                     <p class="bold">
                         <span class="co-image-icon"><img src="assets/images/icon-warranty.svg" class="img-fluid" alt=""> </span>
                         ضمان بندولين الكامل
                     </p>
-
-
                 </div><!-- co-advantages -->
 
                 <div class="co-actions">
@@ -601,7 +609,7 @@
 
 </section>
 
-<section class="see-this-products pt-5">
+<section class="see-this-products pt-5 mb-5">
 
     <div class="container">
         <div class="co-section-header">
@@ -612,236 +620,32 @@
 
     <div class="swiper recommendations-offers-swiper">
         <div class="swiper-wrapper">
+
             <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
+                <?php @include "./src/html/product-style-3.html"; ?>
             </div>
+
             <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
+                <?php @include "./src/html/product-style-3.html"; ?>
             </div>
+
             <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
+                <?php @include "./src/html/product-style-3.html"; ?>
             </div>
+
             <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
+                <?php @include "./src/html/product-style-3.html"; ?>
             </div>
+
             <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
+                <?php @include "./src/html/product-style-3.html"; ?>
             </div>
+
             <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
+                <?php @include "./src/html/product-style-3.html"; ?>
             </div>
-            <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
 
 
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="co-recommendation-product" style="background-image: url(assets/images/Product/product-4.jpg)">
-                    <h4 class="co-recommendation-product__flag">عناية البيبي</h4>
-                    <h3 class="co-recommendation-product__discount">%خصم 20</h3>
-                    <h2 class="co-recommendation-product__title">بلسم بندولين بالمورينجا</h2>
-                    <div class="co-recommendation-product__review">
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                        <i class="icon icon-Star_2"></i>
-                    </div>
-
-
-                    <div class="co-recommendation-product__footer">
-                        <button class="btn btn--primary">عرض التفاصيل</button>
-                        <div class="co-recommendation-product__price">
-                            <h2 class="co-recommendation-product__price__after">120 ج.م</h2>
-                            <h2 class="co-recommendation-product__price__before">160 ج.م</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">

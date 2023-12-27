@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch src/scss/style-ltr.scss:assets/css/style-ltr.min.css src/scss/style-rtl.scss:assets/css/style-rtl.min.css --style compressed",
+    "sass": "sass --quiet --watch src/scss/style-ltr.scss:assets/css/style-ltr.min.css src/scss/style-rtl.scss:assets/css/style-rtl.min.css --style compressed",
     "format": "npx prettier --write ."
   },
   "author": "",

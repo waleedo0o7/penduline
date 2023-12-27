@@ -13,6 +13,7 @@
 </div>
 
 <main class="main bg-light">
+
     <div class="container">
 
         <div class="co-page-banner">
@@ -24,7 +25,8 @@
         <div class="co-page-content">
 
             <div class="row">
-                <div class="col-md-3 mb-5">
+
+                <div class="col-lg-3 mb-5">
 
                     <div class="co-sidebar card p-4">
                         <div class="co-form">
@@ -204,7 +206,7 @@
                     </div><!-- co-sidebar -->
                 </div><!-- col -->
 
-                <div class="col-md-9">
+                <div class="col-lg-9">
 
                     <div class="co-products-list-header">
 
@@ -239,35 +241,48 @@
 
                     <div class="co-products-list">
                         <div class="row">
-                            <div class="col-md-3 mb-5">
+
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
-                            <div class="col-md-3 mb-5">
+                            <div class="col-md-6 col-xl-3 mb-5">
+                                <?php @include "./src/html/product-style-1.html"; ?>
+                            </div> <!-- col-md-3 -->
+
+                            <div class="col-md-6 col-xl-3 mb-5">
+                                <?php @include "./src/html/product-style-1.html"; ?>
+                            </div> <!-- col-md-3 -->
+
+                            <div class="col-md-6 col-xl-3 mb-5">
+                                <?php @include "./src/html/product-style-1.html"; ?>
+                            </div> <!-- col-md-3 -->
+
+                            <div class="col-md-6 col-xl-3 mb-5">
                                 <?php @include "./src/html/product-style-1.html"; ?>
                             </div> <!-- col-md-3 -->
 
@@ -528,10 +543,10 @@
     </div>
     <div class="recommendations__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button recommendations-navigation__button--prev">
-              <i class="fa fa-chevron-left"></i>
+            <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button recommendations-navigation__button--next">
-              <i class="fa fa-chevron-right"></i>
+            <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>
@@ -734,10 +749,10 @@
     </div>
     <div class="best-offers__navigation co-swiper-navigation co-swiper-navigation--gray">
         <a class="co-swiper-navigation__button best-offers-navigation__button--prev">
-              <i class="fa fa-chevron-left"></i>
+            <i class="fa fa-chevron-left"></i>
         </a>
         <a class="co-swiper-navigation__button best-offers-navigation__button--next">
-              <i class="fa fa-chevron-right"></i>
+            <i class="fa fa-chevron-right"></i>
         </a>
     </div>
 </section>
