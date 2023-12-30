@@ -113,7 +113,7 @@ a {
   margin-bottom: 10px;
 
   .checkmark {
-    top: 0;
+    top: 5px;
     #{$left}: 0;
     height: 18px;
     width: 18px;
@@ -299,7 +299,7 @@ select.select {
 
 .btn-action {
   width: 40px;
-  height: 40px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,7 +345,7 @@ select.select {
   height: 100%;
 
   .co-product-slider {
-    width: 50%;
+    width: 55%;
     display: flex;
     background: #fff;
     position: relative;
@@ -367,10 +367,33 @@ select.select {
     .product-slider {
       display: flex;
       justify-content: center;
-      align-items: center;
-      height: calc(100vh - 250px);
+      align-items: flex-start;
+      height: 400px;
       position: relative;
       margin-bottom: 20px;
+
+      .co-products-thumbs-slider-and-video {
+        width: 115px;
+        height: calc(100% - 80px);
+        margin-inline-end: 10px;
+        position: relative;
+        .co-video {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80px;
+          border-radius: 10px;
+          margin-top: 5px;
+          flex-direction: column;
+          background: $primary-color;
+          color: #fff;
+          i {
+            font-size: 22px;
+          }
+          a {
+          }
+        }
+      }
 
       .swiper {
         width: 100%;
@@ -419,8 +442,7 @@ select.select {
         }
 
         &.swiper-products-thumbs-slider {
-          width: 115px;
-          margin-inline-end: 10px;
+          width: 100%;
 
           .swiper-slide {
             opacity: 0.4;
@@ -452,7 +474,7 @@ select.select {
   }
 
   .co-product-details {
-    width: 50%;
+    width: 45%;
     padding: 30px;
     .co-product__title {
       .product__title {
@@ -645,7 +667,6 @@ select.select {
   gap: 5px;
   width: 80%;
 
-
   @include media-breakpoint-down(md) {
     width: 100%;
   }
@@ -749,21 +770,16 @@ select.select {
 }
 
 .co-help-cards {
-  display: flex;
-  gap: 10px;
-  width: 100%;
-  margin: auto;
-  flex-wrap: wrap;
+  padding: 0;
 
   .help-card {
     border: 1px solid #bcbcbc;
     padding: 15px;
     border-radius: 10px;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-self: center;
     align-items: center;
-    width: 25%;
 
     @include media-breakpoint-down(md) {
       width: 47%;
@@ -809,7 +825,7 @@ select.select {
   border-radius: 0 0 50px 50px;
 
   @include media-breakpoint-down(md) {
-    border-radius:  10px;
+    border-radius: 10px;
   }
 }
 
@@ -1073,14 +1089,20 @@ select.select {
 
     .swiper.swiper-products-thumbs-slider {
       margin: 0;
+      height: auto;
+      width: 100%;
     }
   }
+}
 
-  .product-page-wrapper .co-product-slider .product-slider .swiper.swiper-products-thumbs-slider {
-    width: 100%;
+.modal {
+  .modal-content {
+    border-radius: 20px;
   }
 
-  .product-page-wrapper .co-product-slider .product-slider .swiper.swiper-products-thumbs-slider {
-    height: auto;
+  .modal-header .close {
+    margin: -1rem auto -1rem -1rem;
+    font-size: 32px;
+    line-height: 15px;
   }
 }

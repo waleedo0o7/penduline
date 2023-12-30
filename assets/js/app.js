@@ -246,7 +246,7 @@ let productSliderSwiper = () => {
     slidesNumView = 3.5
   } else {
     sliderDirection = 'vertical'
-    slidesNumView = 5
+    slidesNumView = 3.5
   }
 
   swiperProductsThumbsSlider = new Swiper(".swiper-products-thumbs-slider", {

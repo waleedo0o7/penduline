@@ -7,9 +7,6 @@
 
         <div class="co-page-content">
 
-
-
-
             <div class="row">
 
                 <div class="col-md-7">
@@ -23,6 +20,47 @@
                         <div class="form-wrapper">
 
                             <form>
+
+
+
+                                <div class="card all-addresses mb-4 p-3">
+
+                                    <p class="lead mb-2 d-flex justify-content-between align-items-center mb-3"> <span> العنوان : </span> <a href="#" class="btn btn--secondary "> اضافة </a> </p>
+
+                                    <div class="one-address">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <label class="option-container mb-1">
+                                                <input type="radio" checked="checked" name="address" value="1">
+                                                <span class="checkmark"></span>
+                                                <p class="lead mb-0"> عنوان المنزل </p>
+                                            </label>
+                                            <a class="btn btn-danger   btn-action" href="#"> <i class="icon icon-trash"></i> </a>
+                                            <a class="btn btn-primary  btn-action mr-2" href="#"> <i class="fa fa-pen"></i> </a>
+                                        </div> <!-- d-flex -->
+                                        <p> 5 شارع الازهر - سيدي بشر - الاسكندرية </p>
+                                    </div><!-- one-address -->
+
+
+                                    <div class="one-address">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <label class="option-container mb-1">
+                                                <input type="radio" name="address" value="1">
+                                                <span class="checkmark"></span>
+                                                <p class="lead mb-0"> عنوان العمل </p>
+                                            </label>
+                                            <a class="btn btn-danger  btn-action" href="#"> <i class="icon icon-trash"></i> </a>
+                                            <a class="btn btn-primary btn-action mr-2" href="#"> <i class="fa fa-pen"></i> </a>
+                                        </div> <!-- d-flex -->
+                                        <p> 5 شارع الازهر - سيدي بشر  </p>
+                                    </div><!-- one-address -->
+
+
+                                    
+
+                                </div> <!-- all-addresses -->
+
+
+
 
                                 <div class="row">
                                     <div class="col-md-6">

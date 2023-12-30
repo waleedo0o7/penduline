@@ -24,29 +24,14 @@
         <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
       </a>
 
-
-
       <div class="co-language-switcher">
-        <a href="#" class="co-language-switcher__link" type="button" id="changeLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="#" data-toggle="modal" data-target="#change-language" class="co-language-switcher__link">
           <img class="co-language-switcher__flag" src="assets/images/Flag/egypt.png" alt="EGYPT" />
           <span class="co-language-switcher__link__label color-white">مصر</span>
           <i class="icon icon-arrow_dropdown icon-xl color-white"></i>
         </a>
-        <div class="dropdown-menu" aria-labelledby="changeLang" x-placement="bottom-start" style="
-                position: absolute;
-                will-change: transform;
-                top: 0;
-                left: 0;
-                transform: translate3d(1282px, 68px, 0px);
-              ">
-          <a class="dropdown-item" href="#">
-            <span>عربي</span>
-          </a>
-          <a class="dropdown-item" href="#">
-            <span>English</span>
-          </a>
-        </div>
       </div>
+
       <div class="co-icon-container">
         <i class="icon icon-location-3"></i>
         <span>القاهره</span>
@@ -104,7 +89,7 @@
     <div class="container header__nav-list__container">
       <ul class="header__nav reset-list">
         <li class="header__nav__item header__nav__item--active">
-          <a href="" class="header__nav__item__link">    <i class="fa fa-ellipsis show-all-icon" aria-hidden="true"></i>   عرض الكل</a>
+          <a href="" class="header__nav__item__link"> <i class="fa fa-ellipsis show-all-icon" aria-hidden="true"></i> عرض الكل</a>
         </li>
         <li class="header__nav__item">
           <a href="" class="header__nav__item__link"> عالم بندولين</a>

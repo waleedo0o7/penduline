@@ -1,3 +1,5 @@
+<?php @include "./src/html/modals.html"; ?>
+
 <!-- CONTACTS SECTION START -->
 <section class="contacts">
   <div class="container">
@@ -48,8 +50,6 @@
   </div>
 </section>
 <!-- CONTACTS SECTION END -->
-
-
 
 <!-- FOOTER SECTION START -->
 <footer class="footer">
@@ -194,8 +194,7 @@
     <div class="footer__copy-rights">
       <div class="footer__copy-rights__logo">
         <img src="assets/images/Brand/logo-main.png" alt="Logo">
-        <p class="footer__copy-rights__logo__heading">جميع الحقوق محفوظة للمركز الوطني لكفاءة وترشيد المياه
-          2023</p>
+        <p class="footer__copy-rights__logo__heading"> © جميع الحقوق محفوظة لشركة سيماك الدوائية </p>
       </div>
 
       <div>
@@ -234,10 +233,7 @@
 </footer>
 <!-- FOOTER SECTION END -->
 
-
-
 <script src="assets/js/jquery-3.4.1.min.js"></script>
-<!-- <script src="assets/js/swiper.min.js"></script> -->
 <script src="other/js/swiper-bundle.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

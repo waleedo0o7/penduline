@@ -8,35 +8,44 @@
 
                 <div class="product-slider">
 
-                    <div class="swiper swiper-products-thumbs-slider">
-                        <div class="swiper-wrapper">
+                    <div class="co-products-thumbs-slider-and-video">
+                        <div class="swiper swiper-products-thumbs-slider">
+                            <div class="swiper-wrapper">
 
-                            <div class="swiper-slide">
-                                <img src="other/img/products/xyz-001.jpg" />
+                                <div class="swiper-slide">
+                                    <img src="other/img/products/xyz-001.jpg" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="other/img/products/xyz-001.jpg" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="other/img/products/xyz-001.jpg" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="other/img/products/xyz-001.jpg" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="other/img/products/xyz-001.jpg" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="other/img/products/xyz-001.jpg" />
+                                </div>
+
                             </div>
-
-                            <div class="swiper-slide">
-                                <img src="other/img/products/xyz-001.jpg" />
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="other/img/products/xyz-001.jpg" />
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="other/img/products/xyz-001.jpg" />
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="other/img/products/xyz-001.jpg" />
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="other/img/products/xyz-001.jpg" />
-                            </div>
-
                         </div>
+
+                        <a href="#" class="co-video">
+                            <i class="icon icon-Video"></i>
+                            فيديو متاح
+                        </a>
                     </div>
+
+
 
                     <div class="swiper swiper-products-slider">
                         <div class="swiper-wrapper">
@@ -131,31 +140,37 @@
 
                         </div>
                     </div>
+
                 </div> <!-- product-slider -->
 
-                <div class="co-help-cards">
+                <div class="row co-help-cards">
 
-                    <div class="help-card">
-                        <i class="icon icon-dish-solid mb-2"></i>
-                        <p class="bold mb-0"> المكونات الكاملة </p>
-                    </div> <!-- help-card -->
+                    <div class="col-md-3">
+                        <div class="help-card">
+                            <i class="icon icon-dish-solid mb-2"></i>
+                            <p class="bold mb-0"> المكونات الكاملة </p>
+                        </div> <!-- help-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div class="help-card">
+                            <i class="icon icon-dish mb-2"></i>
+                            <p class="bold mb-0"> المكونات الفعالة </p>
+                        </div> <!-- help-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div class="help-card">
+                            <i class="icon icon-guard-shield mb-2"></i>
+                            <p class="bold mb-0"> الأمان </p>
+                        </div> <!-- help-card -->
+                    </div>
+                    <div class="col-md-3">
+                        <div class="help-card">
+                            <i class="icon icon-question-mark mb-2"></i>
+                            <p class="bold mb-0"> طرق الاستخدام </p>
+                        </div> <!-- help-card -->
+                    </div>
 
-                    <div class="help-card">
-                        <i class="icon icon-dish mb-2"></i>
-                        <p class="bold mb-0"> المكونات الفعالة </p>
-                    </div> <!-- help-card -->
-
-                    <div class="help-card">
-                        <i class="icon icon-guard-shield mb-2"></i>
-                        <p class="bold mb-0"> الأمان </p>
-                    </div> <!-- help-card -->
-
-                    <div class="help-card">
-                        <i class="icon icon-question-mark mb-2"></i>
-                        <p class="bold mb-0"> طرق الاستخدام </p>
-                    </div> <!-- help-card -->
-
-                </div><!-- co-cards -->
+                </div><!-- row -->
 
                 <div class="co-product-additional-info">
 
