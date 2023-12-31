@@ -14,18 +14,19 @@ select {
     background-position-x: 10px !important;
 }
 
+.fa-chevron-right,
+.fa-chevron-left {
+    transform: rotate(180deg);
+}
 
-html[dir="rtl"] {
-    .fa-chevron-right,
-    .fa-chevron-left {
-        transform: rotate(180deg);
-    }
+.co-range-slider {
+    direction: ltr;
+}
 
-    .co-range-slider {
-        direction: ltr;
-    }
+.co-search select.select {
+    border-radius: 0 100px 100px 0 !important;
+}
 
-    .co-search select.select {
-        border-radius: 0 100px  100px  0 !important;
-    }
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem;
 }
