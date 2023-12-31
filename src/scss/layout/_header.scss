@@ -8,69 +8,10 @@
     &__container {
       @include flex(center);
       column-gap: 50px;
-
-      .close-mobile-menu {
-        display: none;
-      }
-
-      @include media-breakpoint-down(lg) {
-        flex-wrap: wrap;
-        .close-mobile-menu {
-          display: flex !important;
-          justify-content: center;
-          align-items: center;
-          border-radius: 50%;
-          font-size: 22px;
-          position: absolute;
-          top: 20px;
-          cursor: pointer;
-          color: #FFF;
-
-          .fa {
-            font-size: 28px;
-          }
-        }
-      }
-
-      @include media-breakpoint-down(md) {
-        column-gap: 10px;
-        padding-top: 40px;
-        justify-content: space-between;
-        align-content: flex-start;
-      }
-    }
-
-    &.show {
-      display: flex;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 9999;
-      width: 100vw;
-      height: 100vh;
-      padding: 40px 20px;
-
-      .co-icon-container,
-      .co-search,
-      .co-language-switcher {
-        width: 50% !important;
-        margin-bottom: 40px !important;
-      }
-    }
-
-    @include media-breakpoint-down(lg) {
-      display: none;
     }
   }
 
   &__logo {
-    @include media-breakpoint-down(md) {
-      width: 100%;
-    }
-
-    @include media-breakpoint-down(lg) {
-      display: none;
-    }
   }
 
   &__nav-list {
@@ -79,11 +20,6 @@
     &__container {
       @include flex(center);
       column-gap: 50px;
-
-      @include media-breakpoint-down(lg) {
-        flex-direction: column;
-        padding: 0;
-      }
     }
 
     &__track-order {
@@ -101,10 +37,6 @@
       &:focus-visible {
         border-color: #878787;
         outline-color: #878787;
-      }
-
-      @include media-breakpoint-down(lg) {
-        display: none;
       }
     }
   }
@@ -124,45 +56,59 @@
         padding: 12px 15px;
         height: 100%;
         display: inline-flex;
-        color: $secondary-color; 
+        color: $secondary-color;
       }
 
       &:hover,
       &--active {
         background-color: #e0e6ef;
       }
-
-      @include media-breakpoint-down(lg) {
-        min-width: 160px;
-        padding: 20px 10px;
-      }
-    }
-
-    @include media-breakpoint-down(lg) {
-      width: 100%;
-      overflow: auto;
-
-      &__item {
-        width: 100%;
-        text-align: center;
-      }
     }
   }
 
-  &__top__mobile {
+  &__top__mobile__bar {
     background-color: $primary-color;
     display: none;
-    @include media-breakpoint-down(lg) {
-      @include flex(center, space-between);
-      padding: 10px;
-    }
-
-    .open-mobile-menu {
+    .open-mobile-menu,
+    .close-mobile-menu {
       cursor: pointer;
       i {
         font-size: 24px;
         color: #fff;
       }
     }
+  }
+
+  @include media-breakpoint-down(xl) {
+    display: none;
+
+    &__top__mobile__bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+    }
+  }
+}
+
+.top-mobile-menu {
+  background-color: #e8e8e8;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+
+  &.show {
+    display: block;
+  }
+
+  @include media-breakpoint-down(xl) {
+  }
+
+  .menu-link {
+    background-color: #fff;
   }
 }

@@ -223,13 +223,15 @@ function topFunction() {
 
 function showMobileMenu() {
   $('.open-mobile-menu').on("click", function () {
-    $(".header__top").addClass('show')
+    $(".top-mobile-menu").addClass('show');
+    $("body").addClass("fixed-position");
   });
 }
 
 function closeMobileMenu() {
   $('.close-mobile-menu').on("click", function () {
-    $(".header__top").removeClass('show')
+    $(".top-mobile-menu").removeClass('show');
+    $("body").removeClass("fixed-position");
   });
 }
 

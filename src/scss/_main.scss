@@ -1106,3 +1106,15 @@ select.select {
     line-height: 15px;
   }
 }
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.fixed-position {
+  position: fixed;
+}

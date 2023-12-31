@@ -75,16 +75,6 @@
   </div>
 
 
-  <div class="header__top__mobile">
-    <div class="logo-wrapper">
-      <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
-    </div>
-    <a class="open-mobile-menu">
-      <i class="fa-solid fa-bars"></i>
-    </a>
-  </div><!-- header__top -->
-
-
   <div class="header__nav-list">
     <div class="container header__nav-list__container">
       <ul class="header__nav reset-list">
@@ -120,6 +110,117 @@
     </div>
   </div>
 
-
 </header>
+
+
+<div class="header__top__mobile__bar">
+  <div class="logo-wrapper">
+    <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
+  </div>
+  <a class="open-mobile-menu">
+    <i class="fa-solid fa-bars"></i>
+  </a>
+</div><!-- header__top -->
+
+<div class="top-mobile-menu">
+
+
+  <div class="header__top__mobile__bar">
+    <div class="logo-wrapper">
+      <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
+    </div>
+    <a class="close-mobile-menu">
+      <i class="fa fa-times"></i>
+    </a>
+  </div><!-- header__top -->
+
+
+
+  <div class="co-block mb-2">
+    <ul class="reset-list">
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="icon icon-user-3 me-1"></i> حسابك </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+    </ul>
+  </div><!-- co-block -->
+
+  <div class="co-block mb-2">
+    <ul class="reset-list">
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="icon icon-love me-1"></i> المفضلة </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="icon icon-cart me-1"></i> عربة التسوق </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="icon icon-location-3 me-1"></i> القاهرة </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <span class="flag-icon flag-icon-sa"></span> اللغة العربية | ر.س </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+    </ul>
+  </div><!-- co-block -->
+
+  <div class="co-block mb-2">
+    <ul class="reset-list">
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> عالم بندولين </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> عالم بندولين </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> البيبي و الام </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> الشعر الكيرلي </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> عرض اليوم </p>
+          <i class="icon icon-arrow-Left_2"></i>
+        </a>
+      </li>
+    </ul>
+  </div><!-- co-block -->
+
+</div><!-- top-mobile-menu -->
+
+
 <!-- HEADER SECTION END -->
