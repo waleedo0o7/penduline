@@ -243,6 +243,9 @@
 <!-- Fancybox -->
 <script src="other/js/jquery.fancybox.min.js"></script>
 
+<!-- video js -->
+<script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+
 
 <script src="assets/js/app.js"></script>
 

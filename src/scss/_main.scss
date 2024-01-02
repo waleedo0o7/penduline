@@ -1118,3 +1118,11 @@ select.select {
 .fixed-position {
   position: fixed;
 }
+
+.color-primary {
+  color: $primary-color;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

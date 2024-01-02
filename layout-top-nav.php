@@ -15,10 +15,7 @@
 
   <div class="header__top">
     <div class="header__top__container container">
-
-      <a class="close-mobile-menu">
-        <i class="fa fa-times"></i>
-      </a>
+ 
 
       <a href="view-home.php?dir=rtl" class="header__logo">
         <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
@@ -57,6 +54,7 @@
           <span class="co-icon-container__title">قائمة مفضلاتك</span>
         </div>
       </div>
+
       <a href="view-cart.php?dir=rtl" class="color-white co-icon-container">
         <i class="icon icon-cart"></i>
         <div>
@@ -64,14 +62,19 @@
           <span class="co-icon-container__title">عربة التسوق</span>
         </div>
       </a>
-      <div class="co-icon-container">
+
+      <div class="co-icon-container dropdown" type="button" data-toggle="dropdown">
         <i class="icon icon-user-3"></i>
-        <div>
-          <!-- <span class="co-icon-container__label">حسابك</span> -->
-          <span class="co-icon-container__title">حسابك</span>
-        </div>
-      </div>
-    </div>
+        <span class="co-icon-container__title">حسابك <i class="icon icon-arrow_dropdown icon-xl color-white"></i> </span>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#"> لوحة التحكم </a>
+          <a class="dropdown-item" href="#">تسجيل خروج</a>
+        </div> <!-- dropdown -->
+
+      </div> <!-- co-icon-container -->
+
+    </div> <!-- header__top__container -->
   </div>
 
 
@@ -124,7 +127,6 @@
 
 <div class="top-mobile-menu">
 
-
   <div class="header__top__mobile__bar">
     <div class="logo-wrapper">
       <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
@@ -134,17 +136,23 @@
     </a>
   </div><!-- header__top -->
 
-
-
   <div class="co-block mb-2">
     <ul class="reset-list">
-      <li class="menu-item">
-        <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
-          <p class="m-0"> <i class="icon icon-user-3 me-1"></i> حسابك </p>
-          <i class="icon icon-arrow-Left_2"></i>
-        </a>
+      <li class="menu-item dropdown">
+        <div class="menu-link d-flex justify-content-between align-items-center p-2 cursor-pointer" type="button" data-toggle="dropdown">
+          <p class="m-0 color-primary"> <i class="icon icon-user-3 me-1"></i> حسابك </p>
+          <i class="icon icon-arrow-Right_2"></i>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#"> لوحة التحكم </a>
+            <a class="dropdown-item" href="#">تسجيل خروج</a>
+          </div>
+
+        </div>
       </li>
     </ul>
+
+
   </div><!-- co-block -->
 
   <div class="co-block mb-2">
@@ -153,28 +161,28 @@
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="icon icon-love me-1"></i> المفضلة </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="icon icon-cart me-1"></i> عربة التسوق </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="icon icon-location-3 me-1"></i> القاهرة </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <span class="flag-icon flag-icon-sa"></span> اللغة العربية | ر.س </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
@@ -186,35 +194,35 @@
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> عالم بندولين </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> عالم بندولين </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> البيبي و الام </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> الشعر الكيرلي </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
 
       <li class="menu-item">
         <a href="#" class="menu-link d-flex justify-content-between align-items-center p-2">
           <p class="m-0"> <i class="fa fa-circle fa-xs me-1"></i> عرض اليوم </p>
-          <i class="icon icon-arrow-Left_2"></i>
+          <i class="icon icon-arrow-Right_2"></i>
         </a>
       </li>
     </ul>

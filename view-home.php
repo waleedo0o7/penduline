@@ -360,12 +360,12 @@
                 <div class="col-lg-6">
                   <div class="text-center">
 
-                    <a href="#">
+                    <a data-fancybox="product-video" href="assets/post-001.mp4" class="open-video">
                       <img src="assets/images/play-circle.svg" class="play-circle-icon mb-3" alt="">
                       <p class="color-white"> تشغيل الفيديو </p>
                     </a>
 
-                    <a href="#" class="btn btn--primary--inverted"> برنامج استبدال النقاط </a>
+                    <a data-fancybox="product-video" href="assets/post-001.mp4" class="btn btn--primary--inverted open-video"> برنامج استبدال النقاط </a>
 
                   </div><!-- text-center -->
                 </div><!-- col-lg-6 -->

@@ -6,8 +6,8 @@
     background-color: $primary-color;
 
     &__container {
-      @include flex(center);
-      column-gap: 50px;
+      @include flex(center, space-between);
+      column-gap: 20px;
     }
   }
 
@@ -111,4 +111,8 @@
   .menu-link {
     background-color: #fff;
   }
+}
+
+.dropdown-menu {
+  border-radius: 10px;
 }

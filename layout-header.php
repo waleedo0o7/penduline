@@ -12,7 +12,12 @@
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css" />
   <link rel="stylesheet" href="other/icomoon-dist.css" />
 
+  <!-- flag-icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+  <!-- video-js -->
+  <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+
 
   <?php
   if (isset($_GET['dir']))

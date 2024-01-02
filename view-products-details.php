@@ -1,7 +1,9 @@
 <?php include 'layout-header.php'; ?>
 
 <main class="main mb-0 p-0 bg-light">
+
     <div class="container relative">
+
         <div class="product-page-wrapper">
 
             <div class="co-product-slider">
@@ -38,14 +40,11 @@
 
                             </div>
                         </div>
-
-                        <a href="#" class="co-video">
+                        <a data-fancybox="product-video" href="assets/post-001.mp4" class="co-video open-video">
                             <i class="icon icon-Video"></i>
                             فيديو متاح
                         </a>
                     </div>
-
-
 
                     <div class="swiper swiper-products-slider">
                         <div class="swiper-wrapper">

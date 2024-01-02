@@ -289,7 +289,24 @@
 
         </div>
 
+        <div class="col-md-6">
+            <section>
+                <h1 class="text-center"> video js </h1>
+                <video id="product-video" src="assets/post-001.mp4" class="video-js" controls preload="auto" data-setup="{}"></video>
+            </section>
+        </div>
+
+
     </div> <!-- row -->
+
+
+
+ 
+
+
+
+
+ 
 
 </div> <!-- container -->
 
