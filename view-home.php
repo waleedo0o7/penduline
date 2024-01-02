@@ -2,9 +2,41 @@
 
 <main class="main">
 
-  <div class="bg-primary bottom-overlap intro-bg">
+  <div class="bg-primary bottom-overlap">
+
+    <div class="primary-day-offers co-swiper-arrow-start">
+
+      <div class="swiper primary-day-offers-swiper">
+        <div class="swiper-wrapper">
+
+        <div class="one-item swiper-slide" style="background-image: url(assets/images/slide-3.jpg);">
+            <?php @include "./src/html/primary-day-offers-slide-1.php"; ?>
+          </div><!-- swiper-slide -->
+ 
+          <div class="one-item swiper-slide" style="background-image: url(assets/images/slide-3.jpg);">
+            <?php @include "./src/html/primary-day-offers-slide-2.php"; ?>
+          </div><!-- swiper-slide -->
+
+        </div> <!-- primary swiper-wrapper -->
+      </div> <!-- swiper primary-day-offers-swiper -->
+
+
+      <div class="primary-day-offers__navigation co-swiper-navigation">
+
+        <a class="co-swiper-navigation__button color-white primary-day-offers-navigation__button--prev">
+          <i class="fa fa-chevron-left"></i>
+        </a>
+
+        <a class="co-swiper-navigation__button color-white primary-day-offers-navigation__button--next">
+          <i class="fa fa-chevron-right"></i>
+        </a>
+
+      </div> <!-- co-swiper-navigation -->
+
+    </div> <!-- primary-day-offers -->
+
     <!-- DAY OFFER START -->
-    <section class="day-offers co-swiper-arrow-start">
+    <section class="d-none day-offers co-swiper-arrow-start">
       <div class="swiper day-offers-swiper">
         <div class="swiper-wrapper">
 

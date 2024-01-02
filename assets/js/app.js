@@ -1,9 +1,32 @@
 jQuery(document).ready(function ($) {
-  const swiper = new Swiper('.day-offers-swiper', {
-    slidesPerView: 4.5,
-    spaceBetween: 40,
-    autoplay: true,
+
+  const primaryDayOffersSwiper = new Swiper('.primary-day-offers-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    autoplay: false,
     speed: 1200,
+    loop: false,
+    allowTouchMove: false,
+    navigation: {
+      nextEl: '.primary-day-offers-navigation__button--next',
+      prevEl: '.primary-day-offers-navigation__button--prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 1,
+      },
+    },
+  });
+
+  const dayOffersSwiper = new Swiper('.day-offers-swiper', {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    autoplay: false,
+    speed: 1200,
+    allowTouchMove: false,
     navigation: {
       nextEl: '.day-offers-navigation__button--next',
       prevEl: '.day-offers-navigation__button--prev',
@@ -15,17 +38,9 @@ jQuery(document).ready(function ($) {
       768: {
         slidesPerView: 2,
       },
-      991: {
-        slidesPerView: 3,
-      },
-      1400: {
-        slidesPerView: 4,
-      },
-      1700: {
-        slidesPerView: 4.5,
-      },
     },
   });
+
 
   const bestOfferSwiper = new Swiper('.best-offers-swiper', {
     slidesPerView: 5.5,
