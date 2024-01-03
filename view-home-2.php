@@ -9,12 +9,12 @@
       <div class="swiper primary-day-offers-swiper">
         <div class="swiper-wrapper">
 
-          <div class="one-item swiper-slide" style="background-image: url(assets/images/slide-3.jpg);">
-            <?php @include "./src/html/primary-day-offers-slide-1.php"; ?>
+          <div class="one-item swiper-slide" style="background-image: url(assets/images/slide-2.jpg);">
+            <?php @include "./src/html/primary-day-offers-slide-3.php"; ?>
           </div><!-- swiper-slide -->
 
-          <div class="one-item swiper-slide" style="background-image: url(assets/images/slide-3.jpg);">
-            <?php @include "./src/html/primary-day-offers-slide-2.php"; ?>
+          <div class="one-item swiper-slide" style="background-image: url(assets/images/slide-2.jpg);">
+            <?php @include "./src/html/primary-day-offers-slide-3.php"; ?>
           </div><!-- swiper-slide -->
 
         </div> <!-- primary swiper-wrapper -->
@@ -35,7 +35,7 @@
 
     </div> <!-- primary-day-offers -->
 
-
+ 
     <!-- RECENT ARRIVE SECTION START -->
     <section class="recent-arrive">
       <div class="container">
@@ -329,11 +329,9 @@
               <div class="row d-flex justify-content-center align-items-center h-100">
 
                 <div class="col-lg-6">
-                  <div class="doodle-and-win-content-text">
-                    <h1 class="mb-4 color-pink"> خربش واكسب </h1>
-                    <p class=" lead m-0"> الكود أمان ومكسب كمان </p>
-                    <p class=" lead"> برنامج نقاط وهدايا مجانيه مع بندولين وبس </p>
-                  </div>
+                  <h1 class="mb-4 color-pink"> خربش واكسب </h1>
+                  <p class=" lead m-0"> الكود أمان ومكسب كمان </p>
+                  <p class=" lead m-0"> برنامج نقاط وهدايا مجانيه مع بندولين وبس </p>
                 </div><!-- col-lg-6 -->
 
                 <div class="col-lg-6">
