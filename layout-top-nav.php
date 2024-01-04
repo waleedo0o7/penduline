@@ -15,7 +15,7 @@
 
   <div class="header__top">
     <div class="header__top__container container">
- 
+
 
       <a href="view-home.php?dir=rtl" class="header__logo">
         <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
@@ -58,23 +58,17 @@
       <a href="view-cart.php?dir=rtl" class="color-white co-icon-container">
         <i class="icon icon-cart"></i>
         <div>
-          <!-- <span class="co-icon-container__label">عربة</span> -->
           <span class="co-icon-container__title">عربة التسوق</span>
         </div>
       </a>
 
-      <div class="co-icon-container dropdown" type="button" data-toggle="dropdown">
+      <a href="view-auth-login.php" class=" color-white co-icon-container dropdown">
         <i class="icon icon-user-3"></i>
-        <span class="co-icon-container__title">حسابك <i class="icon icon-arrow_dropdown icon-xl color-white"></i> </span>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#"> لوحة التحكم </a>
-          <a class="dropdown-item" href="#">تسجيل خروج</a>
-        </div> <!-- dropdown -->
-
-      </div> <!-- co-icon-container -->
+        <span class="co-icon-container__title color-white"> حسابك </span>
+      </a> <!-- co-icon-container -->
 
     </div> <!-- header__top__container -->
+
   </div>
 
 
@@ -138,17 +132,11 @@
 
   <div class="co-block mb-2">
     <ul class="reset-list">
-      <li class="menu-item dropdown">
-        <div class="menu-link d-flex justify-content-between align-items-center p-2 cursor-pointer" type="button" data-toggle="dropdown">
-          <p class="m-0 color-primary"> <i class="icon icon-user-3 me-1"></i> حسابك </p>
+      <li class="menu-item">
+        <a href="view-auth-login.php" class="menu-link d-flex justify-content-between align-items-center p-2">
+          <p class="m-0"> <i class="icon icon-user-3 me-1"></i> حسابك </p>
           <i class="icon icon-arrow-Right_2"></i>
-
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#"> لوحة التحكم </a>
-            <a class="dropdown-item" href="#">تسجيل خروج</a>
-          </div>
-
-        </div>
+        </a>
       </li>
     </ul>
 

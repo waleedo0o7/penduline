@@ -17,7 +17,7 @@
 
                     <div class="row">
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-group mb-4">
                                 <label for="username"> الاسم </label>
                                 <input type="text" class="form-control" id="username" placeholder=" اسم المستخدم ">
@@ -61,7 +61,7 @@
 
                         <div class="col-md-6">
 
-                            <div class="form-group mb-0 relative">
+                            <div class="form-group mt-2 mb-0 relative">
                                 <label class="text-left"> Gender </label>
 
 
@@ -90,16 +90,41 @@
 
                         </div> <!-- col-md-6 -->
 
+
                     </div> <!-- row -->
 
-                    <div class="d-flex mb-2">
-                        <button type="submit" class=" btn btn--primary "> انشاء حساب </button>
+
+                    <div class="text-center mb-4">
+                        <a href="view-cpanel-dashbaord.php" class="btn btn--primary w-75 "> انشاء حساب </a>
                     </div>
 
+                    <div class="text-center">
 
-                    <div class="d-flex">
-                        <p> لديك حساب بالفعل ؟ <a href="auth-signin.php" class="btn btn-link p-2"> تسجيل الدخول </a> </p>
-                    </div>
+                        <p class="color-gray mb-2"> او يمكنك تسجيل حساب جديد من خلال </p>
+
+                        <ul class="co-social-links reset-list co-social-links--primary justify-content-center mb-3">
+                            <li class="co-social-links__item">
+                                <a href="https://www.facebook.com" target="_blank" aria-label="facebook">
+                                    <i class="icon icon-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="co-social-links__item">
+                                <a href="https://www.twitter.com" target="_blank" aria-label="twitter">
+                                    <i class="icon icon-google"></i>
+                                </a>
+                            </li>
+                            <li class="co-social-links__item">
+                                <a href="https://www.instagram.com" target="_blank" aria-label="instagram">
+                                    <i class="icon icon-twitter-1"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <hr>
+
+                        <p> لديك حساب بالفعل ؟ <a href="view-auth-login.php" class="btn-link"> تسجيل دخول </a> </p>
+
+                    </div> <!-- col-md-12 -->
 
                 </form>
 

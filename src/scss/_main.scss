@@ -57,7 +57,7 @@ a {
 }
 
 .color-white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .color-danger {
@@ -278,7 +278,7 @@ select.select {
 }
 
 .me-2 {
-  margin-inline-end: 10px;
+  margin-inline-end: 10px !important;
 }
 
 .me-3 {
@@ -1040,9 +1040,71 @@ select.select {
   cursor: pointer;
 }
 
+
+.container-md {
+  max-width: 900px;
+}
+
 .container-sm {
   max-width: 680px;
 }
+
+
+.modal {
+  .modal-content {
+    border-radius: 20px;
+  }
+
+  .modal-header .close {
+    margin: -1rem -1rem -1rem auto;
+    font-size: 32px;
+    line-height: 15px;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.fixed-position {
+  position: fixed;
+}
+
+.color-primary {
+  color: $primary-color;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+
+
+.cpanel-card{
+
+  img{
+    width: 120px;
+    margin: auto;
+  }
+
+  a , h4{
+    color: #000 !important;
+  }
+
+}
+
+
+
+
+
+
+
+
 
 @include media-breakpoint-down(md) {
   .co-swiper-arrow-start > .co-swiper-navigation {
@@ -1149,34 +1211,3 @@ select.select {
   }
 }
 
-.modal {
-  .modal-content {
-    border-radius: 20px;
-  }
-
-  .modal-header .close {
-    margin: -1rem -1rem -1rem auto;
-    font-size: 32px;
-    line-height: 15px;
-  }
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-auto {
-  overflow: auto;
-}
-
-.fixed-position {
-  position: fixed;
-}
-
-.color-primary {
-  color: $primary-color;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
