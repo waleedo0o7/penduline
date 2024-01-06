@@ -8,6 +8,93 @@
 
             <div class="co-product-slider">
 
+                <div class="for-sm-screens ">
+
+                    <div class="co-product__title">
+                        <h1 class="product__title"> كريم مرطب بندولين للوجه والجسم واليدين واليدين واليدين واليدين </h1>
+                    </div> <!-- co-product__title -->
+
+                    <div class="co-product-size-category d-flex">
+
+                        <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> الحجم </small> <span class="bold lead"> ML 300 </span></p>
+
+                        <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> التصنيف </small> <span class="bold lead"> عناية البيبي </span></p>
+
+                    </div><!-- co-product-size-category -->
+
+                    <div class="co-product-rate ">
+                        <div class="rate me-3 d-inline-flex">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                        </div>
+
+                        <p class="d-inline-flex"> <span class="me-2"> 4.5 </span> <span> ( تقييم 250) </span></p>
+
+                    </div> <!-- co-product-rate -->
+
+                    <div class="co-product-discount">
+
+                        <div class="co-product-offer">
+                            <div class="colored-label label-primary label-md">
+                                خصم 20%
+                            </div>
+                        </div>
+
+                        <div class="co-product-current-price">
+                            <p class="title lead mb-0"> الأن </p>
+                            <p class="current-price mb-0 lead bold"> $199 </p>
+                        </div><!-- co-product-current-price -->
+
+                        <div class="co-product-old-price">
+                            <p class="title lead mb-0"> كان </p>
+                            <p class="old-price mb-0"> 250 $ </p>
+                        </div><!-- co-product-current-price -->
+
+                    </div><!-- co-product-discount" -->
+
+                    <div class="co-advantages">
+                        <p class="bold">
+                            <span class="co-image-icon"><img src="assets/images/icon-free_returns.svg" class="img-fluid" alt=""> </span>
+                            رجوع مجاني أمن خلال 14 يوم
+                        </p>
+                        <p class="bold">
+                            <span class="co-image-icon"><img src="assets/images/icon-warranty.svg" class="img-fluid" alt=""> </span>
+                            ضمان بندولين الكامل
+                        </p>
+                    </div><!-- co-advantages -->
+
+                    <div class="co-actions">
+
+                        <div class="co-add-to-cart-by-quantity">
+
+                            <select class="select">
+                                <option value="0"> 333 </option>
+                                <option value="0"> 2 </option>
+                                <option value="0"> 3 </option>
+                                <option value="0"> 4 </option>
+                            </select>
+
+                            <button class="btn btn--secondary add-to-cart-btn"> اضف للعربة </button>
+
+                        </div> <!-- co-add-to-cart-by-quantity -->
+
+
+                        <div class="co-add-to-fav">
+
+                            <a href="#" class="btn btn--primary btn-action"> <i class="icon icon-love"></i> </a>
+
+                        </div> <!-- co-add-to-fav -->
+
+                    </div><!-- co-actions -->
+
+
+                </div>
+
+
+
                 <div class="product-slider">
 
                     <div class="co-products-thumbs-slider-and-video">
@@ -335,50 +422,58 @@
 
             <div class="co-product-details">
 
-                <div class="co-product__title">
-                    <h1 class="product__title"> كريم مرطب بندولين للوجه والجسم واليدين واليدين واليدين واليدين </h1>
-                </div> <!-- co-product__title -->
 
-                <div class="co-product-size-category d-flex">
+                <div class="for-lg-screens">
 
-                    <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> الحجم </small> <span class="bold lead"> ML 300 </span></p>
 
-                    <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> التصنيف </small> <span class="bold lead"> عناية البيبي </span></p>
+                    <div class="co-product__title">
+                        <h1 class="product__title"> كريم مرطب بندولين للوجه والجسم واليدين واليدين واليدين واليدين </h1>
+                    </div> <!-- co-product__title -->
 
-                </div><!-- co-product-size-category -->
+                    <div class="co-product-size-category d-flex">
 
-                <div class="co-product-rate ">
-                    <div class="rate me-3 d-inline-flex">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star "></span>
-                    </div>
+                        <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> الحجم </small> <span class="bold lead"> ML 300 </span></p>
 
-                    <p class="d-inline-flex"> <span class="me-2"> 4.5 </span> <span> ( تقييم 250) </span></p>
+                        <p class="d-inline-flex align-items-center w-50"> <small class="me-2"> التصنيف </small> <span class="bold lead"> عناية البيبي </span></p>
 
-                </div> <!-- co-product-rate -->
+                    </div><!-- co-product-size-category -->
 
-                <div class="co-product-discount">
-
-                    <div class="co-product-offer">
-                        <div class="colored-label label-primary label-md">
-                            خصم 20%
+                    <div class="co-product-rate ">
+                        <div class="rate me-3 d-inline-flex">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
                         </div>
-                    </div>
 
-                    <div class="co-product-current-price">
-                        <p class="title lead mb-0"> الأن </p>
-                        <p class="current-price mb-0 lead bold"> $199 </p>
-                    </div><!-- co-product-current-price -->
+                        <p class="d-inline-flex"> <span class="me-2"> 4.5 </span> <span> ( تقييم 250) </span></p>
 
-                    <div class="co-product-old-price">
-                        <p class="title lead mb-0"> كان </p>
-                        <p class="old-price mb-0"> 250 $ </p>
-                    </div><!-- co-product-current-price -->
+                    </div> <!-- co-product-rate -->
 
-                </div><!-- co-product-discount" -->
+                    <div class="co-product-discount">
+
+                        <div class="co-product-offer">
+                            <div class="colored-label label-primary label-md">
+                                خصم 20%
+                            </div>
+                        </div>
+
+                        <div class="co-product-current-price">
+                            <p class="title lead mb-0"> الأن </p>
+                            <p class="current-price mb-0 lead bold"> $199 </p>
+                        </div><!-- co-product-current-price -->
+
+                        <div class="co-product-old-price">
+                            <p class="title lead mb-0"> كان </p>
+                            <p class="old-price mb-0"> 250 $ </p>
+                        </div><!-- co-product-current-price -->
+
+                    </div><!-- co-product-discount" -->
+
+                </div>
+
+
 
                 <div class="co-product-availability mb-3">
 
@@ -419,41 +514,44 @@
 
                 </div><!-- co-product-availability -->
 
-                <div class="co-advantages">
-                    <p class="bold">
-                        <span class="co-image-icon"><img src="assets/images/icon-free_returns.svg" class="img-fluid" alt=""> </span>
-                        رجوع مجاني أمن خلال 14 يوم
-                    </p>
-                    <p class="bold">
-                        <span class="co-image-icon"><img src="assets/images/icon-warranty.svg" class="img-fluid" alt=""> </span>
-                        ضمان بندولين الكامل
-                    </p>
-                </div><!-- co-advantages -->
+                <div class="for-lg-screens">
 
-                <div class="co-actions">
+                    <div class="co-advantages">
+                        <p class="bold">
+                            <span class="co-image-icon"><img src="assets/images/icon-free_returns.svg" class="img-fluid" alt=""> </span>
+                            رجوع مجاني أمن خلال 14 يوم
+                        </p>
+                        <p class="bold">
+                            <span class="co-image-icon"><img src="assets/images/icon-warranty.svg" class="img-fluid" alt=""> </span>
+                            ضمان بندولين الكامل
+                        </p>
+                    </div><!-- co-advantages -->
 
-                    <div class="co-add-to-cart-by-quantity">
+                    <div class="co-actions">
 
-                        <select class="select">
-                            <option value="0"> 333 </option>
-                            <option value="0"> 2 </option>
-                            <option value="0"> 3 </option>
-                            <option value="0"> 4 </option>
-                        </select>
+                        <div class="co-add-to-cart-by-quantity">
 
-                        <button class="btn btn--secondary add-to-cart-btn"> اضف للعربة </button>
+                            <select class="select">
+                                <option value="0"> 333 </option>
+                                <option value="0"> 2 </option>
+                                <option value="0"> 3 </option>
+                                <option value="0"> 4 </option>
+                            </select>
 
-                    </div> <!-- co-add-to-cart-by-quantity -->
+                            <button class="btn btn--secondary add-to-cart-btn"> اضف للعربة </button>
+
+                        </div> <!-- co-add-to-cart-by-quantity -->
 
 
-                    <div class="co-add-to-fav">
+                        <div class="co-add-to-fav">
 
-                        <a href="#" class="btn btn--primary btn-action"> <i class="icon icon-love"></i> </a>
+                            <a href="#" class="btn btn--primary btn-action"> <i class="icon icon-love"></i> </a>
 
-                    </div> <!-- co-add-to-fav -->
+                        </div> <!-- co-add-to-fav -->
 
-                </div><!-- co-actions -->
+                    </div><!-- co-actions -->
 
+                </div>
             </div><!-- co-product-details -->
 
         </div> <!-- product-page-wrapper -->

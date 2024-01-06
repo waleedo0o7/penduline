@@ -247,6 +247,12 @@
 <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
 
 
+<!-- Google Map -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCww7LGmRDuRkyImwuN0GJB8zE_2vW7AuI"></script>
+<script type="text/javascript" src="assets/js/jquery.googlemap.js"></script>
+
+
+
 <script src="assets/js/app.js"></script>
 
 </body>

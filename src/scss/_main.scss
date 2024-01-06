@@ -1040,7 +1040,6 @@ select.select {
   cursor: pointer;
 }
 
-
 .container-md {
   max-width: 900px;
 }
@@ -1048,7 +1047,6 @@ select.select {
 .container-sm {
   max-width: 680px;
 }
-
 
 .modal {
   .modal-content {
@@ -1082,34 +1080,102 @@ select.select {
   cursor: pointer;
 }
 
-
-
-
-.cpanel-card{
-
-  img{
+.cpanel-card {
+  img {
     width: 120px;
     margin: auto;
   }
 
-  a , h4{
+  a,
+  h4 {
     color: #000 !important;
   }
-
 }
 
+.co-orders {
+  .order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 
+    .co-label {
+      width: 100%;
+      .label {
+        background: #8c8c8c;
+        padding: 4px 18px;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 16px;
+        width: fit-content;
 
+        &.delivered {
+          background: #4caf50;
+        }
+        &.in-progress {
+          background: #e47c1b;
+        }
+      }
+    }
 
+    .order-details {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-grow: 1;
+    }
+    .order-image {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      margin-inline-end: 10px;
+    }
+  }
+}
 
+.map-wrapper {
+  margin-top: 30px;
 
+  #map {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ebebeb;
+  }
 
+  a#get-current-location-button {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border-radius: 0;
+    border-color: #a0a0a0;
+    color: #000;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}
 
-
+.for-sm-screens {
+  display: none;
+}
+.for-lg-screens {
+  display: block;
+}
 @include media-breakpoint-down(md) {
+  .for-sm-screens {
+    display: block;
+  }
+  .for-lg-screens {
+    display: none;
+  }
   .co-swiper-arrow-start > .co-swiper-navigation {
     height: 70%;
   }
+ 
 
   .co-day-offer-text {
     text-align: center;
@@ -1149,12 +1215,12 @@ select.select {
   .product-page-wrapper {
     flex-direction: column;
 
-    
     .co-product-slider {
       width: 100%;
-      padding: 0px;
+      padding: 20px;
+      margin-top: 20px;
       height: auto !important;
-      &:after{
+      &:after {
         display: none;
       }
 
@@ -1210,4 +1276,3 @@ select.select {
     }
   }
 }
-

@@ -17,7 +17,7 @@
     <div class="header__top__container container">
 
 
-      <a href="view-home.php?dir=rtl" class="header__logo">
+      <a href="view-home.php" class="header__logo">
         <img src="assets/images/Brand/logo-white.svg" alt="Logo" />
       </a>
 
@@ -47,15 +47,15 @@
           <i class="icon icon-Search"></i>
         </a>
       </div>
-      <div class="co-icon-container">
+      <a href="view-cpanel-my-fav.php" class="color-white co-icon-container">
         <i class="icon icon-love"></i>
         <div>
           <!-- <span class="co-icon-container__label">المفضله</span> -->
           <span class="co-icon-container__title">قائمة مفضلاتك</span>
         </div>
-      </div>
+      </a>
 
-      <a href="view-cart.php?dir=rtl" class="color-white co-icon-container">
+      <a href="view-cart.php" class="color-white co-icon-container">
         <i class="icon icon-cart"></i>
         <div>
           <span class="co-icon-container__title">عربة التسوق</span>
@@ -76,28 +76,28 @@
     <div class="container header__nav-list__container">
       <ul class="header__nav reset-list">
         <li class="header__nav__item header__nav__item--active">
-          <a href="" class="header__nav__item__link"> <i class="fa fa-ellipsis show-all-icon" aria-hidden="true"></i> عرض الكل</a>
+          <a href="view-products-list.php" class="header__nav__item__link"> <i class="fa fa-ellipsis show-all-icon" aria-hidden="true"></i> عرض الكل</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link"> عالم بندولين</a>
+          <a href="view-products-list.php" class="header__nav__item__link"> عالم بندولين</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link"> البيبي و الام</a>
+          <a href="view-products-list.php" class="header__nav__item__link"> البيبي و الام</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link"> عرض اليوم</a>
+          <a href="view-products-list.php" class="header__nav__item__link"> عرض اليوم</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link"> العروض</a>
+          <a href="view-products-list.php" class="header__nav__item__link"> العروض</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link"> خربش واكسب</a>
+          <a href="view-products-list.php" class="header__nav__item__link"> خربش واكسب</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link">بيع مع بيندولين</a>
+          <a href="view-products-list.php" class="header__nav__item__link">بيع مع بيندولين</a>
         </li>
         <li class="header__nav__item">
-          <a href="" class="header__nav__item__link">المدونة</a>
+          <a href="#" class="header__nav__item__link">المدونة</a>
         </li>
       </ul>
       <select class="select header__nav-list__track-order">
